@@ -1,0 +1,995 @@
+Claim_ID,Customer_ID,Policy_Number,Accident_Date,Claim_Date,Damage_Type,Accident_Description,Estimated_Repair_Cost,Claim_Amount,Fraud_Label,Fraud_Score,Claim_Status,Inspection_Status,CV_Status,NLP_Status,RAG_Status,Final_Decision
+CLM000001,CUST00022,POL00005,2026-06-30,2026-07-04,smash,Vehicle collided with a divider resulting in severe body damage.,74981,71981,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000002,CUST00022,POL00024,2026-03-16,2026-03-17,scratch,Vehicle was scratched while parking in a shopping mall.,13065,10065,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000003,CUST00030,POL00018,2026-04-02,2026-04-02,smash,Vehicle was heavily damaged after colliding with another car.,80880,75880,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000004,CUST00069,POL00025,2026-05-06,2026-05-09,smash,Vehicle was heavily damaged after colliding with another car.,174664,171664,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000005,CUST00060,POL00005,2026-02-07,2026-02-08,glass_break,Windshield developed cracks following a highway incident.,18574,15574,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000006,CUST00015,POL00030,2026-03-26,2026-03-30,smash,A high-speed accident caused significant structural damage.,162591,159591,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000007,CUST00062,POL00001,2026-02-10,2026-02-15,smash,A high-speed accident caused significant structural damage.,179671,174671,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000008,CUST00091,POL00012,2026-06-07,2026-06-09,smash,A high-speed accident caused significant structural damage.,98966,95966,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000009,CUST00074,POL00018,2026-06-28,2026-06-29,dent,Driver hit a roadside pole while taking a turn.,21587,19587,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000010,CUST00038,POL00018,2026-06-03,2026-06-08,glass_break,Glass damage occurred due to falling construction material.,30309,25309,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000011,CUST00076,POL00010,2026-03-02,2026-03-05,dent,Driver hit a roadside pole while taking a turn.,15308,13308,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000012,CUST00069,POL00004,2026-04-22,2026-04-25,smash,Major highway collision caused extensive front-end damage.,171859,168859,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000013,CUST00023,POL00001,2026-06-14,2026-06-15,smash,Vehicle collided with a divider resulting in severe body damage.,62003,57003,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000014,CUST00050,POL00025,2026-06-04,2026-06-05,glass_break,A stone from a truck shattered the front windshield.,35913,34913,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000015,CUST00054,POL00009,2026-03-17,2026-03-17,glass_break,A stone from a truck shattered the front windshield.,12590,10590,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000016,CUST00096,POL00014,2026-05-31,2026-06-05,glass_break,Windshield developed cracks following a highway incident.,20492,18492,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000017,CUST00067,POL00002,2026-04-26,2026-05-01,smash,Major highway collision caused extensive front-end damage.,170025,168025,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000018,CUST00060,POL00004,2026-05-06,2026-05-08,smash,Vehicle was heavily damaged after colliding with another car.,133899,130899,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000019,CUST00005,POL00021,2026-04-07,2026-04-07,dent,A low-speed collision caused dents on the front bumper.,26325,25325,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000020,CUST00078,POL00024,2026-06-23,2026-06-25,smash,Major highway collision caused extensive front-end damage.,164696,163696,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000021,CUST00018,POL00025,2026-06-09,2026-06-11,smash,A high-speed accident caused significant structural damage.,132564,130564,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000022,CUST00073,POL00029,2026-06-17,2026-06-18,smash,Vehicle collided with a divider resulting in severe body damage.,172352,167352,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000023,CUST00022,POL00028,2026-07-18,2026-07-20,scratch,Vehicle was scratched while parking in a shopping mall.,10688,9688,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000024,CUST00034,POL00012,2026-05-27,2026-05-31,smash,Vehicle collided with a divider resulting in severe body damage.,115398,113398,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000025,CUST00010,POL00029,2026-05-01,2026-05-04,smash,A high-speed accident caused significant structural damage.,88623,85623,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000026,CUST00061,POL00007,2026-02-24,2026-02-24,smash,Vehicle collided with a divider resulting in severe body damage.,131380,129380,Fraud,93,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000027,CUST00027,POL00030,2026-06-19,2026-06-19,glass_break,Side window broke after impact from roadside debris.,19227,17227,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000028,CUST00002,POL00014,2026-07-16,2026-07-20,smash,Front portion of the vehicle was severely smashed during an accident.,73716,70716,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000029,CUST00007,POL00012,2026-07-06,2026-07-07,smash,Major highway collision caused extensive front-end damage.,136214,133214,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000030,CUST00059,POL00009,2026-04-01,2026-04-02,smash,Front portion of the vehicle was severely smashed during an accident.,82306,77306,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000031,CUST00050,POL00007,2026-06-18,2026-06-21,smash,Front portion of the vehicle was severely smashed during an accident.,89322,86322,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000032,CUST00025,POL00009,2026-04-20,2026-04-20,smash,Vehicle was heavily damaged after colliding with another car.,75306,70306,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000033,CUST00036,POL00003,2026-07-06,2026-07-11,glass_break,Side window broke after impact from roadside debris.,22713,17713,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000034,CUST00053,POL00021,2026-03-13,2026-03-13,smash,Vehicle collided with a divider resulting in severe body damage.,177199,172199,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000035,CUST00073,POL00004,2026-02-04,2026-02-09,scratch,Scratches were noticed after the vehicle was parked overnight.,13148,10148,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000036,CUST00017,POL00002,2026-05-19,2026-05-19,smash,Major highway collision caused extensive front-end damage.,52553,51553,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000037,CUST00052,POL00025,2026-06-06,2026-06-07,smash,Vehicle collided with a divider resulting in severe body damage.,85626,83626,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000038,CUST00019,POL00007,2026-05-20,2026-05-25,smash,Major highway collision caused extensive front-end damage.,108982,105982,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000039,CUST00016,POL00004,2026-03-01,2026-03-01,smash,Vehicle collided with a divider resulting in severe body damage.,124382,121382,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000040,CUST00013,POL00025,2026-06-10,2026-06-11,smash,Vehicle was heavily damaged after colliding with another car.,101022,96022,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000041,CUST00038,POL00010,2026-02-04,2026-02-04,smash,Vehicle was heavily damaged after colliding with another car.,106632,103632,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000042,CUST00052,POL00028,2026-07-05,2026-07-06,smash,Front portion of the vehicle was severely smashed during an accident.,161660,158660,Fraud,97,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000043,CUST00091,POL00010,2026-04-21,2026-04-21,dent,Vehicle suffered a dent after a rear-end collision.,12203,10203,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000044,CUST00070,POL00001,2026-03-25,2026-03-25,smash,Vehicle was heavily damaged after colliding with another car.,171742,170742,Fraud,71,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000045,CUST00009,POL00012,2026-06-05,2026-06-10,dent,Vehicle was dented after accidental impact with a divider.,13119,8119,Fraud,89,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000046,CUST00058,POL00001,2026-04-30,2026-05-02,smash,Vehicle collided with a divider resulting in severe body damage.,88235,86235,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000047,CUST00053,POL00012,2026-04-03,2026-04-03,smash,Front portion of the vehicle was severely smashed during an accident.,110918,107918,Fraud,79,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000048,CUST00006,POL00009,2026-02-07,2026-02-12,smash,Major highway collision caused extensive front-end damage.,98033,97033,Fraud,100,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000049,CUST00068,POL00007,2026-04-24,2026-04-27,smash,Vehicle collided with a divider resulting in severe body damage.,128393,125393,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000050,CUST00093,POL00014,2026-04-09,2026-04-13,smash,Vehicle was heavily damaged after colliding with another car.,168741,163741,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000051,CUST00096,POL00012,2026-05-23,2026-05-28,smash,Vehicle collided with a divider resulting in severe body damage.,140995,139995,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000052,CUST00081,POL00003,2026-04-11,2026-04-13,smash,Front portion of the vehicle was severely smashed during an accident.,108712,106712,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000053,CUST00074,POL00003,2026-02-02,2026-02-04,smash,A high-speed accident caused significant structural damage.,159687,157687,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000054,CUST00022,POL00018,2026-02-26,2026-02-28,smash,A high-speed accident caused significant structural damage.,133150,131150,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000055,CUST00051,POL00023,2026-03-28,2026-04-02,smash,Vehicle was heavily damaged after colliding with another car.,92471,89471,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000056,CUST00029,POL00004,2026-07-13,2026-07-15,scratch,Vehicle was scratched while parking in a shopping mall.,8151,6151,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000057,CUST00086,POL00012,2026-04-19,2026-04-22,dent,Vehicle suffered a dent after a rear-end collision.,34403,31403,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000058,CUST00080,POL00028,2026-03-07,2026-03-07,smash,Vehicle was heavily damaged after colliding with another car.,67744,62744,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000059,CUST00072,POL00002,2026-07-10,2026-07-15,smash,Vehicle collided with a divider resulting in severe body damage.,74307,69307,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000060,CUST00045,POL00024,2026-06-14,2026-06-17,smash,Major highway collision caused extensive front-end damage.,80651,75651,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000061,CUST00060,POL00007,2026-04-30,2026-05-01,dent,Vehicle was dented after accidental impact with a divider.,27413,26413,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000062,CUST00087,POL00028,2026-06-19,2026-06-20,dent,Vehicle suffered a dent after a rear-end collision.,22042,20042,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000063,CUST00076,POL00001,2026-02-19,2026-02-24,smash,Vehicle collided with a divider resulting in severe body damage.,134080,133080,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000064,CUST00080,POL00002,2026-03-20,2026-03-20,smash,Major highway collision caused extensive front-end damage.,141007,138007,Fraud,89,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000065,CUST00005,POL00017,2026-04-24,2026-04-28,smash,Vehicle collided with a divider resulting in severe body damage.,140116,139116,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000066,CUST00100,POL00018,2026-04-02,2026-04-04,smash,Major highway collision caused extensive front-end damage.,105688,104688,Fraud,85,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000067,CUST00034,POL00001,2026-02-11,2026-02-14,smash,Vehicle collided with a divider resulting in severe body damage.,149179,146179,Fraud,90,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000068,CUST00087,POL00018,2026-05-20,2026-05-24,smash,Front portion of the vehicle was severely smashed during an accident.,92681,90681,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000069,CUST00015,POL00029,2026-05-25,2026-05-27,smash,Vehicle was heavily damaged after colliding with another car.,150701,147701,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000070,CUST00038,POL00025,2026-02-15,2026-02-17,smash,Vehicle collided with a divider resulting in severe body damage.,67043,64043,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000071,CUST00023,POL00028,2026-02-07,2026-02-07,smash,Major highway collision caused extensive front-end damage.,111753,108753,Fraud,98,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000072,CUST00076,POL00017,2026-06-04,2026-06-04,smash,Vehicle was heavily damaged after colliding with another car.,81496,80496,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000073,CUST00076,POL00021,2026-03-21,2026-03-26,smash,Vehicle was heavily damaged after colliding with another car.,123047,121047,Fraud,83,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000074,CUST00040,POL00028,2026-06-11,2026-06-12,smash,Front portion of the vehicle was severely smashed during an accident.,90128,88128,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000075,CUST00097,POL00007,2026-02-05,2026-02-08,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,14710,13710,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000076,CUST00088,POL00012,2026-02-24,2026-02-25,smash,Vehicle collided with a divider resulting in severe body damage.,56702,51702,Fraud,90,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000077,CUST00037,POL00021,2026-02-02,2026-02-07,smash,Front portion of the vehicle was severely smashed during an accident.,94542,92542,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000078,CUST00073,POL00023,2026-03-19,2026-03-21,smash,Vehicle was heavily damaged after colliding with another car.,123143,122143,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000079,CUST00100,POL00004,2026-03-17,2026-03-18,dent,Driver hit a roadside pole while taking a turn.,28940,26940,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000080,CUST00081,POL00004,2026-04-08,2026-04-08,smash,A high-speed accident caused significant structural damage.,141632,140632,Fraud,95,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000081,CUST00057,POL00018,2026-07-01,2026-07-05,smash,Vehicle collided with a divider resulting in severe body damage.,84557,79557,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000082,CUST00035,POL00028,2026-07-24,2026-07-27,smash,Vehicle collided with a divider resulting in severe body damage.,67831,65831,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000083,CUST00027,POL00018,2026-02-26,2026-02-27,smash,Front portion of the vehicle was severely smashed during an accident.,70317,67317,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000084,CUST00029,POL00029,2026-06-29,2026-06-29,smash,Major highway collision caused extensive front-end damage.,153689,150689,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000085,CUST00020,POL00030,2026-05-06,2026-05-11,glass_break,A stone from a truck shattered the front windshield.,24202,23202,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000086,CUST00012,POL00010,2026-04-23,2026-04-27,smash,A high-speed accident caused significant structural damage.,117139,112139,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000087,CUST00022,POL00002,2026-07-22,2026-07-23,smash,Vehicle was heavily damaged after colliding with another car.,109148,104148,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000088,CUST00044,POL00005,2026-04-11,2026-04-14,smash,Vehicle collided with a divider resulting in severe body damage.,81452,76452,Fraud,97,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000089,CUST00003,POL00004,2026-04-15,2026-04-16,smash,A high-speed accident caused significant structural damage.,85475,84475,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000090,CUST00061,POL00025,2026-07-27,2026-07-30,smash,Vehicle was heavily damaged after colliding with another car.,107089,106089,Fraud,96,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000091,CUST00055,POL00028,2026-03-24,2026-03-28,smash,Front portion of the vehicle was severely smashed during an accident.,100787,98787,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000092,CUST00096,POL00024,2026-02-24,2026-03-01,smash,Major highway collision caused extensive front-end damage.,138912,137912,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000093,CUST00058,POL00030,2026-06-18,2026-06-22,smash,A high-speed accident caused significant structural damage.,109102,104102,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000094,CUST00070,POL00029,2026-06-04,2026-06-08,smash,Front portion of the vehicle was severely smashed during an accident.,63275,60275,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000095,CUST00021,POL00010,2026-07-25,2026-07-28,smash,Vehicle was heavily damaged after colliding with another car.,177441,172441,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000096,CUST00088,POL00023,2026-05-09,2026-05-13,smash,Vehicle collided with a divider resulting in severe body damage.,99305,97305,Fraud,94,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000097,CUST00005,POL00010,2026-02-09,2026-02-11,smash,Major highway collision caused extensive front-end damage.,130068,125068,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000098,CUST00017,POL00023,2026-06-03,2026-06-03,smash,Vehicle was heavily damaged after colliding with another car.,164256,159256,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000099,CUST00046,POL00028,2026-03-04,2026-03-09,smash,Vehicle was heavily damaged after colliding with another car.,100331,95331,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000100,CUST00084,POL00028,2026-02-22,2026-02-24,smash,Major highway collision caused extensive front-end damage.,173482,172482,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000101,CUST00067,POL00018,2026-02-15,2026-02-18,smash,Vehicle collided with a divider resulting in severe body damage.,116325,113325,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000102,CUST00062,POL00021,2026-05-10,2026-05-14,smash,A high-speed accident caused significant structural damage.,111867,108867,Fraud,84,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000103,CUST00089,POL00007,2026-04-22,2026-04-22,smash,Vehicle collided with a divider resulting in severe body damage.,142389,139389,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000104,CUST00044,POL00021,2026-02-05,2026-02-05,dent,Driver hit a roadside pole while taking a turn.,22366,20366,Fraud,81,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000105,CUST00015,POL00030,2026-07-09,2026-07-14,smash,Vehicle was heavily damaged after colliding with another car.,131839,130839,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000106,CUST00029,POL00018,2026-04-01,2026-04-05,smash,Vehicle collided with a divider resulting in severe body damage.,96336,91336,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000107,CUST00013,POL00010,2026-07-06,2026-07-08,smash,A high-speed accident caused significant structural damage.,70979,65979,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000108,CUST00026,POL00018,2026-03-27,2026-03-29,smash,Major highway collision caused extensive front-end damage.,158082,155082,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000109,CUST00011,POL00002,2026-03-14,2026-03-14,smash,Front portion of the vehicle was severely smashed during an accident.,130358,125358,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000110,CUST00060,POL00001,2026-07-01,2026-07-03,smash,Major highway collision caused extensive front-end damage.,90643,89643,Fraud,92,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000111,CUST00100,POL00001,2026-07-07,2026-07-07,smash,A high-speed accident caused significant structural damage.,178721,175721,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000112,CUST00070,POL00028,2026-05-09,2026-05-09,smash,Vehicle was heavily damaged after colliding with another car.,99374,97374,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000113,CUST00025,POL00007,2026-05-25,2026-05-26,smash,Vehicle collided with a divider resulting in severe body damage.,82570,79570,Fraud,97,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000114,CUST00030,POL00005,2026-06-05,2026-06-09,smash,A high-speed accident caused significant structural damage.,136921,133921,Fraud,99,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000115,CUST00073,POL00012,2026-06-30,2026-07-03,dent,A low-speed collision caused dents on the front bumper.,18275,17275,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000116,CUST00057,POL00007,2026-06-14,2026-06-15,smash,Front portion of the vehicle was severely smashed during an accident.,140381,135381,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000117,CUST00060,POL00017,2026-07-12,2026-07-16,smash,Front portion of the vehicle was severely smashed during an accident.,112044,109044,Fraud,85,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000118,CUST00093,POL00030,2026-05-21,2026-05-22,smash,Vehicle was heavily damaged after colliding with another car.,158158,157158,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000119,CUST00033,POL00025,2026-03-31,2026-04-05,smash,Vehicle collided with a divider resulting in severe body damage.,112675,111675,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000120,CUST00028,POL00007,2026-02-20,2026-02-24,smash,Vehicle collided with a divider resulting in severe body damage.,129756,128756,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000121,CUST00015,POL00025,2026-06-02,2026-06-06,smash,Major highway collision caused extensive front-end damage.,148004,146004,Fraud,87,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000122,CUST00069,POL00029,2026-03-01,2026-03-03,dent,Vehicle suffered a dent after a rear-end collision.,20761,17761,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000123,CUST00016,POL00004,2026-05-14,2026-05-16,smash,Front portion of the vehicle was severely smashed during an accident.,92185,90185,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000124,CUST00034,POL00010,2026-05-23,2026-05-27,scratch,Vehicle was scratched while parking in a shopping mall.,10572,9572,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000125,CUST00046,POL00010,2026-07-21,2026-07-22,dent,Vehicle was dented after accidental impact with a divider.,13351,10351,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000126,CUST00059,POL00009,2026-03-02,2026-03-05,smash,Major highway collision caused extensive front-end damage.,51849,46849,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000127,CUST00055,POL00012,2026-07-28,2026-08-01,smash,A high-speed accident caused significant structural damage.,51946,46946,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000128,CUST00067,POL00010,2026-04-23,2026-04-27,smash,Vehicle was heavily damaged after colliding with another car.,72535,67535,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000129,CUST00011,POL00007,2026-07-22,2026-07-24,smash,Vehicle was heavily damaged after colliding with another car.,102906,100906,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000130,CUST00075,POL00002,2026-04-22,2026-04-24,smash,Vehicle was heavily damaged after colliding with another car.,117428,116428,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000131,CUST00044,POL00025,2026-04-28,2026-04-30,smash,Major highway collision caused extensive front-end damage.,79391,74391,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000132,CUST00051,POL00005,2026-02-23,2026-02-27,smash,A high-speed accident caused significant structural damage.,87713,85713,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000133,CUST00032,POL00002,2026-02-11,2026-02-16,smash,Vehicle collided with a divider resulting in severe body damage.,57971,54971,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000134,CUST00078,POL00028,2026-07-04,2026-07-06,smash,Front portion of the vehicle was severely smashed during an accident.,90890,85890,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000135,CUST00013,POL00003,2026-02-05,2026-02-06,scratch,Minor scratches occurred due to contact with another parked vehicle.,7325,2325,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000136,CUST00024,POL00025,2026-04-07,2026-04-12,scratch,Scratches were noticed after the vehicle was parked overnight.,4430,2430,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000137,CUST00095,POL00014,2026-01-31,2026-01-31,dent,Driver hit a roadside pole while taking a turn.,26261,23261,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000138,CUST00054,POL00003,2026-05-10,2026-05-12,smash,Front portion of the vehicle was severely smashed during an accident.,52650,51650,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000139,CUST00020,POL00009,2026-07-06,2026-07-07,dent,A low-speed collision caused dents on the front bumper.,27149,24149,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000140,CUST00032,POL00009,2026-05-06,2026-05-09,dent,A low-speed collision caused dents on the front bumper.,20775,18775,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000141,CUST00084,POL00029,2026-05-19,2026-05-21,glass_break,Windshield developed cracks following a highway incident.,23636,20636,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000142,CUST00026,POL00030,2026-06-04,2026-06-07,glass_break,Windshield developed cracks following a highway incident.,43098,38098,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000143,CUST00098,POL00023,2026-06-30,2026-07-04,glass_break,Windshield developed cracks following a highway incident.,34470,31470,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000144,CUST00070,POL00003,2026-07-10,2026-07-10,smash,Vehicle was heavily damaged after colliding with another car.,168791,166791,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000145,CUST00049,POL00024,2026-07-10,2026-07-13,smash,Front portion of the vehicle was severely smashed during an accident.,71011,66011,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000146,CUST00081,POL00007,2026-05-07,2026-05-10,glass_break,Windshield developed cracks following a highway incident.,12063,7063,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000147,CUST00065,POL00018,2026-05-27,2026-05-31,glass_break,Windshield cracked after being struck by flying debris.,34691,31691,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000148,CUST00023,POL00021,2026-03-14,2026-03-14,scratch,Minor scratches occurred due to contact with another parked vehicle.,6451,3451,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000149,CUST00038,POL00023,2026-06-20,2026-06-21,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,11012,9012,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000150,CUST00049,POL00029,2026-04-11,2026-04-12,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,9165,4165,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000151,CUST00009,POL00017,2026-04-17,2026-04-19,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,8986,7986,Fraud,83,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000152,CUST00072,POL00002,2026-05-21,2026-05-23,scratch,Side panel was scratched while passing through a narrow street.,8886,6886,Fraud,79,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000153,CUST00077,POL00025,2026-02-24,2026-02-27,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,11429,8429,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000154,CUST00039,POL00014,2026-07-12,2026-07-17,smash,Vehicle was heavily damaged after colliding with another car.,82666,81666,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000155,CUST00035,POL00001,2026-04-27,2026-04-27,dent,Driver hit a roadside pole while taking a turn.,10235,8235,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000156,CUST00048,POL00028,2026-04-24,2026-04-29,glass_break,Glass damage occurred due to falling construction material.,33833,28833,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000157,CUST00008,POL00005,2026-05-13,2026-05-16,dent,Vehicle was dented after accidental impact with a divider.,25216,22216,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000158,CUST00074,POL00023,2026-03-26,2026-03-27,dent,Vehicle suffered a dent after a rear-end collision.,24057,22057,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000159,CUST00016,POL00030,2026-03-23,2026-03-27,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,3966,1000,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000160,CUST00020,POL00024,2026-07-03,2026-07-04,glass_break,Side window broke after impact from roadside debris.,29550,24550,Fraud,100,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000161,CUST00070,POL00025,2026-03-03,2026-03-06,dent,Another vehicle hit the car while waiting at a traffic signal.,24953,22953,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000162,CUST00097,POL00029,2026-03-20,2026-03-23,scratch,Vehicle was scratched while parking in a shopping mall.,5329,3329,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000163,CUST00048,POL00025,2026-07-21,2026-07-23,scratch,Side panel was scratched while passing through a narrow street.,10741,5741,Fraud,82,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000164,CUST00073,POL00023,2026-06-15,2026-06-20,glass_break,A stone from a truck shattered the front windshield.,34530,31530,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000165,CUST00086,POL00028,2026-02-11,2026-02-13,glass_break,Side window broke after impact from roadside debris.,41975,40975,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000166,CUST00025,POL00001,2026-02-14,2026-02-16,dent,A low-speed collision caused dents on the front bumper.,10019,9019,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000167,CUST00037,POL00024,2026-05-29,2026-05-31,dent,Vehicle suffered a dent after a rear-end collision.,25951,20951,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000168,CUST00020,POL00025,2026-02-02,2026-02-03,dent,Driver hit a roadside pole while taking a turn.,31380,26380,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000169,CUST00075,POL00014,2026-07-13,2026-07-16,dent,A low-speed collision caused dents on the front bumper.,33608,30608,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000170,CUST00064,POL00001,2026-07-29,2026-07-30,dent,Vehicle suffered a dent after a rear-end collision.,9776,8776,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000171,CUST00002,POL00010,2026-02-21,2026-02-24,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,8982,3982,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000172,CUST00090,POL00023,2026-04-10,2026-04-12,scratch,Minor scratches occurred due to contact with another parked vehicle.,9857,4857,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000173,CUST00033,POL00005,2026-06-22,2026-06-23,dent,Vehicle was dented after accidental impact with a divider.,31114,28114,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000174,CUST00061,POL00001,2026-06-11,2026-06-11,dent,Vehicle was dented after accidental impact with a divider.,17752,12752,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000175,CUST00095,POL00014,2026-06-05,2026-06-06,dent,Vehicle suffered a dent after a rear-end collision.,29319,26319,Fraud,78,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000176,CUST00040,POL00023,2026-03-19,2026-03-22,dent,Vehicle was dented after accidental impact with a divider.,23950,18950,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000177,CUST00025,POL00004,2026-04-06,2026-04-11,dent,Vehicle suffered a dent after a rear-end collision.,20675,19675,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000178,CUST00063,POL00005,2026-02-08,2026-02-11,scratch,Minor scratches occurred due to contact with another parked vehicle.,8911,5911,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000179,CUST00032,POL00023,2026-05-08,2026-05-13,scratch,Vehicle was scratched while parking in a shopping mall.,11157,10157,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000180,CUST00036,POL00012,2026-04-15,2026-04-15,dent,Driver hit a roadside pole while taking a turn.,32548,31548,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000181,CUST00014,POL00023,2026-04-11,2026-04-15,dent,Another vehicle hit the car while waiting at a traffic signal.,21213,19213,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000182,CUST00050,POL00005,2026-02-07,2026-02-08,dent,Driver hit a roadside pole while taking a turn.,21937,18937,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000183,CUST00065,POL00003,2026-02-27,2026-02-28,glass_break,Windshield developed cracks following a highway incident.,13753,8753,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000184,CUST00085,POL00021,2026-02-04,2026-02-08,smash,A high-speed accident caused significant structural damage.,129280,126280,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000185,CUST00015,POL00029,2026-07-07,2026-07-11,smash,Vehicle was heavily damaged after colliding with another car.,163673,158673,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000186,CUST00052,POL00024,2026-06-12,2026-06-12,smash,A high-speed accident caused significant structural damage.,171056,169056,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000187,CUST00022,POL00030,2026-06-18,2026-06-22,smash,Front portion of the vehicle was severely smashed during an accident.,84470,82470,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000188,CUST00005,POL00003,2026-02-22,2026-02-23,smash,Front portion of the vehicle was severely smashed during an accident.,75496,74496,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000189,CUST00046,POL00023,2026-04-11,2026-04-15,dent,Vehicle was dented after accidental impact with a divider.,34229,33229,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000190,CUST00044,POL00007,2026-02-13,2026-02-16,smash,Major highway collision caused extensive front-end damage.,124129,121129,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000191,CUST00015,POL00030,2026-05-20,2026-05-24,dent,Another vehicle hit the car while waiting at a traffic signal.,16828,14828,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000192,CUST00023,POL00014,2026-06-13,2026-06-18,glass_break,Windshield cracked after being struck by flying debris.,31287,26287,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000193,CUST00008,POL00017,2026-07-12,2026-07-12,smash,A high-speed accident caused significant structural damage.,82060,77060,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000194,CUST00016,POL00028,2026-03-07,2026-03-10,smash,A high-speed accident caused significant structural damage.,97549,96549,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000195,CUST00079,POL00007,2026-06-10,2026-06-13,smash,Vehicle collided with a divider resulting in severe body damage.,156896,154896,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000196,CUST00016,POL00024,2026-05-18,2026-05-19,smash,Front portion of the vehicle was severely smashed during an accident.,156782,155782,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000197,CUST00078,POL00024,2026-05-22,2026-05-25,smash,Front portion of the vehicle was severely smashed during an accident.,57707,52707,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000198,CUST00060,POL00009,2026-02-02,2026-02-07,scratch,Side panel was scratched while passing through a narrow street.,11314,9314,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000199,CUST00013,POL00017,2026-03-30,2026-03-30,glass_break,Side window broke after impact from roadside debris.,39024,34024,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000200,CUST00077,POL00003,2026-07-26,2026-07-30,glass_break,A stone from a truck shattered the front windshield.,35013,32013,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000201,CUST00057,POL00002,2026-04-15,2026-04-19,scratch,Vehicle was scratched while parking in a shopping mall.,12333,7333,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000202,CUST00013,POL00025,2026-06-04,2026-06-06,smash,A high-speed accident caused significant structural damage.,113119,111119,Fraud,93,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000203,CUST00050,POL00002,2026-05-01,2026-05-03,smash,Major highway collision caused extensive front-end damage.,97274,96274,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000204,CUST00084,POL00014,2026-02-02,2026-02-03,dent,Vehicle was dented after accidental impact with a divider.,21764,16764,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000205,CUST00026,POL00003,2026-07-29,2026-07-29,dent,A low-speed collision caused dents on the front bumper.,34205,31205,Fraud,83,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000206,CUST00089,POL00010,2026-03-20,2026-03-23,dent,Another vehicle hit the car while waiting at a traffic signal.,10304,9304,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000207,CUST00073,POL00004,2026-05-03,2026-05-08,glass_break,Glass damage occurred due to falling construction material.,33991,30991,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000208,CUST00037,POL00018,2026-02-14,2026-02-17,glass_break,A stone from a truck shattered the front windshield.,44538,39538,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000209,CUST00083,POL00009,2026-03-09,2026-03-11,smash,Vehicle was heavily damaged after colliding with another car.,94196,91196,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000210,CUST00059,POL00021,2026-05-13,2026-05-16,smash,A high-speed accident caused significant structural damage.,100702,98702,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000211,CUST00073,POL00005,2026-06-24,2026-06-29,smash,Front portion of the vehicle was severely smashed during an accident.,140110,135110,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000212,CUST00068,POL00007,2026-05-02,2026-05-03,smash,Vehicle collided with a divider resulting in severe body damage.,153441,151441,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000213,CUST00091,POL00030,2026-02-11,2026-02-14,smash,Vehicle collided with a divider resulting in severe body damage.,115976,112976,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000214,CUST00090,POL00018,2026-06-23,2026-06-28,smash,Major highway collision caused extensive front-end damage.,177511,172511,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000215,CUST00038,POL00025,2026-02-06,2026-02-08,smash,Front portion of the vehicle was severely smashed during an accident.,126010,125010,Fraud,84,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000216,CUST00094,POL00001,2026-03-23,2026-03-28,glass_break,Windshield cracked after being struck by flying debris.,38859,33859,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000217,CUST00032,POL00002,2026-07-16,2026-07-20,glass_break,Side window broke after impact from roadside debris.,43342,38342,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000218,CUST00052,POL00009,2026-04-05,2026-04-05,dent,A low-speed collision caused dents on the front bumper.,28799,25799,Fraud,79,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000219,CUST00056,POL00024,2026-02-17,2026-02-21,scratch,Scratches were noticed after the vehicle was parked overnight.,8668,7668,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000220,CUST00012,POL00028,2026-06-05,2026-06-06,scratch,Side panel was scratched while passing through a narrow street.,11092,8092,Fraud,91,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000221,CUST00037,POL00012,2026-07-04,2026-07-08,scratch,Minor scratches occurred due to contact with another parked vehicle.,5313,4313,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000222,CUST00003,POL00009,2026-06-23,2026-06-23,glass_break,Windshield developed cracks following a highway incident.,32799,29799,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000223,CUST00015,POL00014,2026-07-23,2026-07-24,dent,Driver hit a roadside pole while taking a turn.,25012,24012,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000224,CUST00013,POL00028,2026-03-22,2026-03-24,dent,Vehicle suffered a dent after a rear-end collision.,25979,23979,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000225,CUST00010,POL00009,2026-04-13,2026-04-17,smash,A high-speed accident caused significant structural damage.,85434,80434,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000226,CUST00086,POL00001,2026-07-07,2026-07-09,smash,Major highway collision caused extensive front-end damage.,134041,129041,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000227,CUST00003,POL00009,2026-05-06,2026-05-10,scratch,Vehicle was scratched while parking in a shopping mall.,11995,6995,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000228,CUST00022,POL00012,2026-02-27,2026-03-04,scratch,Minor scratches occurred due to contact with another parked vehicle.,10219,7219,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000229,CUST00082,POL00009,2026-04-24,2026-04-27,scratch,Scratches were noticed after the vehicle was parked overnight.,12033,10033,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000230,CUST00009,POL00004,2026-04-17,2026-04-22,scratch,Vehicle was scratched while parking in a shopping mall.,5016,3016,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000231,CUST00014,POL00001,2026-05-29,2026-06-03,smash,A high-speed accident caused significant structural damage.,81508,80508,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000232,CUST00098,POL00030,2026-01-31,2026-02-01,scratch,Scratches were noticed after the vehicle was parked overnight.,8624,5624,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000233,CUST00046,POL00007,2026-02-27,2026-02-27,dent,A low-speed collision caused dents on the front bumper.,12720,10720,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000234,CUST00010,POL00023,2026-05-07,2026-05-10,smash,A high-speed accident caused significant structural damage.,156209,155209,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000235,CUST00060,POL00018,2026-03-21,2026-03-26,smash,Major highway collision caused extensive front-end damage.,121636,119636,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000236,CUST00015,POL00030,2026-05-10,2026-05-15,dent,Vehicle suffered a dent after a rear-end collision.,28052,23052,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000237,CUST00006,POL00023,2026-07-05,2026-07-10,dent,Another vehicle hit the car while waiting at a traffic signal.,13349,11349,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000238,CUST00074,POL00001,2026-07-25,2026-07-29,dent,Driver hit a roadside pole while taking a turn.,34970,29970,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000239,CUST00026,POL00029,2026-03-17,2026-03-21,smash,Vehicle collided with a divider resulting in severe body damage.,93658,88658,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000240,CUST00063,POL00010,2026-06-21,2026-06-25,scratch,Vehicle was scratched while parking in a shopping mall.,11105,8105,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000241,CUST00044,POL00009,2026-07-23,2026-07-28,dent,Vehicle was dented after accidental impact with a divider.,33310,28310,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000242,CUST00006,POL00023,2026-06-30,2026-07-01,dent,Vehicle was dented after accidental impact with a divider.,24108,22108,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000243,CUST00058,POL00023,2026-02-06,2026-02-08,glass_break,A stone from a truck shattered the front windshield.,39153,38153,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000244,CUST00067,POL00007,2026-06-20,2026-06-24,smash,A high-speed accident caused significant structural damage.,104971,99971,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000245,CUST00070,POL00018,2026-03-21,2026-03-22,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,12126,11126,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000246,CUST00039,POL00028,2026-05-23,2026-05-27,smash,Vehicle was heavily damaged after colliding with another car.,175740,173740,Fraud,72,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000247,CUST00071,POL00003,2026-05-17,2026-05-17,smash,A high-speed accident caused significant structural damage.,113865,108865,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000248,CUST00037,POL00007,2026-07-28,2026-07-30,smash,Vehicle collided with a divider resulting in severe body damage.,120860,115860,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000249,CUST00070,POL00003,2026-05-24,2026-05-27,smash,Major highway collision caused extensive front-end damage.,133683,128683,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000250,CUST00076,POL00012,2026-03-26,2026-03-27,dent,Another vehicle hit the car while waiting at a traffic signal.,18321,15321,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000251,CUST00013,POL00018,2026-05-08,2026-05-12,scratch,Scratches were noticed after the vehicle was parked overnight.,4458,2458,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000252,CUST00075,POL00018,2026-07-16,2026-07-16,smash,Major highway collision caused extensive front-end damage.,63173,60173,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000253,CUST00086,POL00018,2026-04-21,2026-04-25,scratch,Scratches were noticed after the vehicle was parked overnight.,11452,6452,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000254,CUST00080,POL00021,2026-03-25,2026-03-30,scratch,Side panel was scratched while passing through a narrow street.,11634,6634,Fraud,81,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000255,CUST00027,POL00021,2026-04-13,2026-04-17,scratch,Scratches were noticed after the vehicle was parked overnight.,4984,1000,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000256,CUST00100,POL00029,2026-05-08,2026-05-08,dent,A low-speed collision caused dents on the front bumper.,10683,8683,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000257,CUST00096,POL00021,2026-07-14,2026-07-17,smash,Vehicle collided with a divider resulting in severe body damage.,84877,83877,Fraud,72,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000258,CUST00003,POL00017,2026-02-09,2026-02-12,scratch,Side panel was scratched while passing through a narrow street.,13711,12711,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000259,CUST00086,POL00012,2026-02-03,2026-02-06,scratch,Vehicle was scratched while parking in a shopping mall.,12600,11600,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000260,CUST00094,POL00004,2026-04-20,2026-04-21,scratch,Minor scratches occurred due to contact with another parked vehicle.,8992,3992,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000261,CUST00019,POL00024,2026-03-11,2026-03-16,scratch,Minor scratches occurred due to contact with another parked vehicle.,4367,1000,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000262,CUST00050,POL00004,2026-07-28,2026-07-29,dent,Driver hit a roadside pole while taking a turn.,25773,20773,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000263,CUST00052,POL00025,2026-07-05,2026-07-07,dent,A low-speed collision caused dents on the front bumper.,13546,12546,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000264,CUST00054,POL00018,2026-02-02,2026-02-04,scratch,Vehicle was scratched while parking in a shopping mall.,3817,1000,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000265,CUST00062,POL00017,2026-03-28,2026-03-31,glass_break,Windshield developed cracks following a highway incident.,13965,8965,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000266,CUST00014,POL00010,2026-03-07,2026-03-08,glass_break,Windshield developed cracks following a highway incident.,32338,29338,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000267,CUST00041,POL00024,2026-06-28,2026-07-02,glass_break,Windshield developed cracks following a highway incident.,25892,22892,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000268,CUST00094,POL00029,2026-05-30,2026-05-30,dent,A low-speed collision caused dents on the front bumper.,14431,9431,Fraud,78,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000269,CUST00077,POL00004,2026-06-02,2026-06-07,dent,A low-speed collision caused dents on the front bumper.,11073,9073,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000270,CUST00085,POL00012,2026-07-29,2026-07-30,dent,Vehicle suffered a dent after a rear-end collision.,21559,20559,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000271,CUST00068,POL00002,2026-03-31,2026-03-31,dent,Vehicle suffered a dent after a rear-end collision.,14589,11589,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000272,CUST00076,POL00010,2026-02-27,2026-03-03,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,11623,6623,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000273,CUST00082,POL00021,2026-03-24,2026-03-24,dent,Driver hit a roadside pole while taking a turn.,20269,18269,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000274,CUST00040,POL00005,2026-07-10,2026-07-14,scratch,Side panel was scratched while passing through a narrow street.,7230,2230,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000275,CUST00074,POL00028,2026-03-22,2026-03-24,dent,A low-speed collision caused dents on the front bumper.,12199,9199,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000276,CUST00038,POL00003,2026-05-25,2026-05-29,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,7224,4224,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000277,CUST00089,POL00012,2026-03-02,2026-03-04,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,5290,1000,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000278,CUST00006,POL00029,2026-02-13,2026-02-16,smash,Front portion of the vehicle was severely smashed during an accident.,154508,149508,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000279,CUST00034,POL00010,2026-04-23,2026-04-24,scratch,Vehicle was scratched while parking in a shopping mall.,7526,2526,Fraud,91,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000280,CUST00086,POL00021,2026-06-30,2026-07-01,scratch,Vehicle was scratched while parking in a shopping mall.,13076,11076,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000281,CUST00069,POL00004,2026-03-22,2026-03-24,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,8444,5444,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000282,CUST00078,POL00001,2026-03-10,2026-03-12,scratch,Vehicle was scratched while parking in a shopping mall.,8404,6404,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000283,CUST00098,POL00002,2026-06-09,2026-06-09,scratch,Minor scratches occurred due to contact with another parked vehicle.,3058,1058,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000284,CUST00100,POL00005,2026-06-09,2026-06-13,smash,Vehicle collided with a divider resulting in severe body damage.,61367,58367,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000285,CUST00092,POL00024,2026-04-05,2026-04-07,scratch,Side panel was scratched while passing through a narrow street.,9470,4470,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000286,CUST00052,POL00029,2026-05-08,2026-05-11,dent,Vehicle was dented after accidental impact with a divider.,33412,30412,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000287,CUST00100,POL00012,2026-02-18,2026-02-18,dent,Driver hit a roadside pole while taking a turn.,11271,10271,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000288,CUST00040,POL00004,2026-02-26,2026-03-01,dent,Vehicle suffered a dent after a rear-end collision.,34926,31926,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000289,CUST00056,POL00017,2026-07-28,2026-07-29,glass_break,Windshield developed cracks following a highway incident.,26743,23743,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000290,CUST00016,POL00003,2026-03-20,2026-03-20,glass_break,Windshield cracked after being struck by flying debris.,22729,17729,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000291,CUST00073,POL00023,2026-03-17,2026-03-22,scratch,Side panel was scratched while passing through a narrow street.,10743,9743,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000292,CUST00038,POL00025,2026-02-12,2026-02-14,scratch,Vehicle was scratched while parking in a shopping mall.,14138,11138,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000293,CUST00072,POL00004,2026-07-16,2026-07-17,glass_break,Side window broke after impact from roadside debris.,33876,28876,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000294,CUST00069,POL00030,2026-02-21,2026-02-25,smash,A high-speed accident caused significant structural damage.,151481,149481,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000295,CUST00090,POL00018,2026-02-17,2026-02-18,glass_break,Windshield developed cracks following a highway incident.,30893,29893,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000296,CUST00055,POL00009,2026-03-12,2026-03-13,glass_break,Windshield cracked after being struck by flying debris.,44098,41098,Fraud,81,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000297,CUST00011,POL00010,2026-07-13,2026-07-17,smash,A high-speed accident caused significant structural damage.,82662,77662,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000298,CUST00087,POL00004,2026-03-22,2026-03-24,dent,Vehicle suffered a dent after a rear-end collision.,12046,11046,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000299,CUST00018,POL00017,2026-06-12,2026-06-12,scratch,Scratches were noticed after the vehicle was parked overnight.,11904,6904,Fraud,84,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000300,CUST00096,POL00012,2026-04-20,2026-04-21,glass_break,A stone from a truck shattered the front windshield.,38037,37037,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000301,CUST00091,POL00018,2026-02-12,2026-02-13,smash,Major highway collision caused extensive front-end damage.,106454,103454,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000302,CUST00049,POL00030,2026-06-14,2026-06-19,smash,A high-speed accident caused significant structural damage.,58397,57397,Fraud,93,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000303,CUST00035,POL00029,2026-05-17,2026-05-19,glass_break,A stone from a truck shattered the front windshield.,34376,33376,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000304,CUST00080,POL00003,2026-04-09,2026-04-10,scratch,Minor scratches occurred due to contact with another parked vehicle.,9967,7967,Fraud,98,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000305,CUST00069,POL00029,2026-05-02,2026-05-03,smash,Vehicle was heavily damaged after colliding with another car.,87865,82865,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000306,CUST00045,POL00004,2026-06-25,2026-06-27,glass_break,Side window broke after impact from roadside debris.,35483,32483,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000307,CUST00041,POL00023,2026-05-16,2026-05-16,scratch,Minor scratches occurred due to contact with another parked vehicle.,12172,11172,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000308,CUST00039,POL00025,2026-03-17,2026-03-21,glass_break,Side window broke after impact from roadside debris.,42657,37657,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000309,CUST00080,POL00012,2026-05-12,2026-05-12,glass_break,A stone from a truck shattered the front windshield.,16216,14216,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000310,CUST00064,POL00028,2026-06-16,2026-06-17,glass_break,Side window broke after impact from roadside debris.,14436,13436,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000311,CUST00013,POL00005,2026-05-09,2026-05-10,glass_break,Glass damage occurred due to falling construction material.,27594,24594,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000312,CUST00004,POL00024,2026-04-23,2026-04-28,glass_break,A stone from a truck shattered the front windshield.,23859,21859,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000313,CUST00003,POL00009,2026-04-10,2026-04-11,dent,Driver hit a roadside pole while taking a turn.,29466,27466,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000314,CUST00033,POL00018,2026-07-07,2026-07-10,glass_break,Glass damage occurred due to falling construction material.,20133,15133,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000315,CUST00033,POL00005,2026-07-07,2026-07-12,glass_break,Glass damage occurred due to falling construction material.,38096,37096,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000316,CUST00007,POL00028,2026-07-26,2026-07-30,glass_break,Side window broke after impact from roadside debris.,43865,38865,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000317,CUST00054,POL00004,2026-03-29,2026-04-03,glass_break,A stone from a truck shattered the front windshield.,23000,21000,Fraud,86,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000318,CUST00029,POL00012,2026-02-04,2026-02-09,glass_break,Side window broke after impact from roadside debris.,29492,28492,Fraud,81,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000319,CUST00082,POL00030,2026-04-17,2026-04-21,glass_break,Windshield developed cracks following a highway incident.,26146,25146,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000320,CUST00032,POL00025,2026-04-15,2026-04-19,smash,Major highway collision caused extensive front-end damage.,62884,60884,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000321,CUST00002,POL00007,2026-06-28,2026-07-02,smash,Vehicle was heavily damaged after colliding with another car.,151757,150757,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000322,CUST00021,POL00005,2026-06-08,2026-06-08,smash,A high-speed accident caused significant structural damage.,71988,70988,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000323,CUST00068,POL00017,2026-05-25,2026-05-28,smash,Vehicle was heavily damaged after colliding with another car.,139907,137907,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000324,CUST00075,POL00025,2026-05-24,2026-05-26,smash,Vehicle collided with a divider resulting in severe body damage.,123044,121044,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000325,CUST00011,POL00029,2026-03-02,2026-03-04,smash,Vehicle was heavily damaged after colliding with another car.,138243,133243,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000326,CUST00084,POL00003,2026-07-26,2026-07-29,smash,Major highway collision caused extensive front-end damage.,74755,69755,Fraud,77,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000327,CUST00058,POL00005,2026-07-13,2026-07-15,smash,Front portion of the vehicle was severely smashed during an accident.,120419,115419,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000328,CUST00084,POL00010,2026-03-12,2026-03-13,smash,Vehicle was heavily damaged after colliding with another car.,158355,157355,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000329,CUST00067,POL00025,2026-06-18,2026-06-23,smash,Vehicle collided with a divider resulting in severe body damage.,151040,149040,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000330,CUST00055,POL00017,2026-07-07,2026-07-09,smash,A high-speed accident caused significant structural damage.,60014,58014,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000331,CUST00083,POL00021,2026-03-22,2026-03-27,smash,Major highway collision caused extensive front-end damage.,175423,170423,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000332,CUST00038,POL00012,2026-04-24,2026-04-26,smash,Vehicle collided with a divider resulting in severe body damage.,161638,160638,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000333,CUST00037,POL00025,2026-06-30,2026-07-04,smash,Vehicle collided with a divider resulting in severe body damage.,173838,171838,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000334,CUST00059,POL00010,2026-02-05,2026-02-08,smash,Vehicle collided with a divider resulting in severe body damage.,93474,88474,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000335,CUST00015,POL00018,2026-02-15,2026-02-15,smash,Front portion of the vehicle was severely smashed during an accident.,109316,108316,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000336,CUST00046,POL00009,2026-04-13,2026-04-16,smash,Vehicle collided with a divider resulting in severe body damage.,86128,84128,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000337,CUST00030,POL00012,2026-05-23,2026-05-25,smash,Front portion of the vehicle was severely smashed during an accident.,64051,59051,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000338,CUST00065,POL00001,2026-07-04,2026-07-04,smash,Front portion of the vehicle was severely smashed during an accident.,82221,81221,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000339,CUST00030,POL00005,2026-05-07,2026-05-08,smash,Front portion of the vehicle was severely smashed during an accident.,121530,119530,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000340,CUST00069,POL00010,2026-04-08,2026-04-09,smash,Vehicle was heavily damaged after colliding with another car.,139880,136880,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000341,CUST00058,POL00010,2026-03-29,2026-04-02,smash,Vehicle collided with a divider resulting in severe body damage.,70996,69996,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000342,CUST00100,POL00029,2026-03-22,2026-03-23,smash,Major highway collision caused extensive front-end damage.,111576,109576,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000343,CUST00024,POL00029,2026-05-30,2026-06-04,smash,Vehicle was heavily damaged after colliding with another car.,134806,133806,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000344,CUST00093,POL00029,2026-02-12,2026-02-17,smash,Vehicle collided with a divider resulting in severe body damage.,50662,47662,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000345,CUST00039,POL00017,2026-02-24,2026-02-27,smash,A high-speed accident caused significant structural damage.,74188,71188,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000346,CUST00064,POL00002,2026-05-24,2026-05-25,glass_break,A stone from a truck shattered the front windshield.,28906,25906,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000347,CUST00039,POL00017,2026-07-13,2026-07-16,smash,Front portion of the vehicle was severely smashed during an accident.,125476,123476,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000348,CUST00050,POL00007,2026-03-29,2026-04-01,smash,Vehicle collided with a divider resulting in severe body damage.,96870,94870,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000349,CUST00011,POL00021,2026-02-28,2026-03-03,smash,A high-speed accident caused significant structural damage.,179834,177834,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000350,CUST00044,POL00012,2026-01-31,2026-02-04,smash,Vehicle collided with a divider resulting in severe body damage.,136832,134832,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000351,CUST00040,POL00014,2026-05-02,2026-05-06,smash,Vehicle collided with a divider resulting in severe body damage.,150719,148719,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000352,CUST00027,POL00028,2026-05-23,2026-05-24,smash,A high-speed accident caused significant structural damage.,90532,87532,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000353,CUST00048,POL00004,2026-03-26,2026-03-27,smash,Major highway collision caused extensive front-end damage.,164008,159008,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000354,CUST00055,POL00014,2026-07-06,2026-07-11,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,12470,9470,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000355,CUST00033,POL00012,2026-02-24,2026-02-28,glass_break,Windshield cracked after being struck by flying debris.,32007,30007,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000356,CUST00093,POL00018,2026-02-08,2026-02-13,scratch,Scratches were noticed after the vehicle was parked overnight.,14920,12920,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000357,CUST00051,POL00025,2026-07-20,2026-07-22,smash,Major highway collision caused extensive front-end damage.,79628,78628,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000358,CUST00092,POL00010,2026-02-26,2026-03-03,glass_break,Side window broke after impact from roadside debris.,25965,24965,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000359,CUST00037,POL00002,2026-05-20,2026-05-23,dent,A low-speed collision caused dents on the front bumper.,13654,11654,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000360,CUST00020,POL00024,2026-05-06,2026-05-08,smash,Vehicle was heavily damaged after colliding with another car.,135445,132445,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000361,CUST00057,POL00004,2026-02-08,2026-02-11,dent,Another vehicle hit the car while waiting at a traffic signal.,34274,31274,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000362,CUST00041,POL00009,2026-07-01,2026-07-01,dent,Vehicle was dented after accidental impact with a divider.,29125,26125,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000363,CUST00027,POL00028,2026-07-27,2026-08-01,smash,Vehicle collided with a divider resulting in severe body damage.,174943,172943,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000364,CUST00020,POL00002,2026-05-04,2026-05-06,smash,A high-speed accident caused significant structural damage.,121732,119732,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000365,CUST00086,POL00029,2026-04-14,2026-04-18,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,7496,2496,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000366,CUST00080,POL00021,2026-07-11,2026-07-12,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,11595,10595,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000367,CUST00007,POL00030,2026-04-14,2026-04-17,dent,Vehicle was dented after accidental impact with a divider.,13755,12755,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000368,CUST00016,POL00029,2026-03-10,2026-03-10,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,9756,6756,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000369,CUST00031,POL00004,2026-07-09,2026-07-13,scratch,Scratches were noticed after the vehicle was parked overnight.,7854,5854,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000370,CUST00055,POL00030,2026-04-17,2026-04-19,dent,Driver hit a roadside pole while taking a turn.,22391,19391,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000371,CUST00006,POL00023,2026-06-28,2026-07-02,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,12403,9403,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000372,CUST00052,POL00025,2026-02-01,2026-02-04,smash,Vehicle collided with a divider resulting in severe body damage.,64406,63406,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000373,CUST00058,POL00018,2026-07-02,2026-07-05,smash,Vehicle was heavily damaged after colliding with another car.,85410,82410,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000374,CUST00032,POL00002,2026-02-22,2026-02-27,dent,Another vehicle hit the car while waiting at a traffic signal.,17414,12414,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000375,CUST00060,POL00009,2026-03-11,2026-03-15,dent,Vehicle was dented after accidental impact with a divider.,31988,26988,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000376,CUST00039,POL00002,2026-04-20,2026-04-20,smash,Vehicle collided with a divider resulting in severe body damage.,135161,133161,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000377,CUST00072,POL00003,2026-06-11,2026-06-16,dent,Another vehicle hit the car while waiting at a traffic signal.,33973,31973,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000378,CUST00005,POL00001,2026-07-29,2026-07-29,dent,A low-speed collision caused dents on the front bumper.,8921,7921,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000379,CUST00027,POL00021,2026-02-08,2026-02-11,smash,A high-speed accident caused significant structural damage.,78902,75902,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000380,CUST00009,POL00021,2026-06-18,2026-06-19,smash,Major highway collision caused extensive front-end damage.,115259,110259,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000381,CUST00037,POL00017,2026-02-01,2026-02-02,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,5566,4566,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000382,CUST00013,POL00023,2026-04-25,2026-04-29,dent,A low-speed collision caused dents on the front bumper.,28636,25636,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000383,CUST00088,POL00018,2026-03-12,2026-03-17,dent,Another vehicle hit the car while waiting at a traffic signal.,24159,23159,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000384,CUST00096,POL00003,2026-02-24,2026-02-28,dent,Vehicle suffered a dent after a rear-end collision.,31948,30948,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000385,CUST00040,POL00014,2026-03-28,2026-03-30,dent,Another vehicle hit the car while waiting at a traffic signal.,21226,20226,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000386,CUST00092,POL00003,2026-04-15,2026-04-19,dent,Another vehicle hit the car while waiting at a traffic signal.,30139,28139,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000387,CUST00039,POL00001,2026-07-04,2026-07-05,dent,Driver hit a roadside pole while taking a turn.,17757,12757,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000388,CUST00030,POL00014,2026-05-30,2026-05-30,dent,A low-speed collision caused dents on the front bumper.,15919,12919,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000389,CUST00094,POL00028,2026-02-03,2026-02-04,dent,Vehicle suffered a dent after a rear-end collision.,23075,18075,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000390,CUST00021,POL00030,2026-06-24,2026-06-28,dent,A low-speed collision caused dents on the front bumper.,34928,31928,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000391,CUST00072,POL00017,2026-04-07,2026-04-08,dent,Vehicle suffered a dent after a rear-end collision.,17139,12139,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000392,CUST00072,POL00001,2026-03-26,2026-03-29,dent,Vehicle was dented after accidental impact with a divider.,12842,10842,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000393,CUST00058,POL00005,2026-06-26,2026-06-29,glass_break,Glass damage occurred due to falling construction material.,26995,23995,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000394,CUST00066,POL00018,2026-04-16,2026-04-18,dent,A low-speed collision caused dents on the front bumper.,26725,24725,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000395,CUST00039,POL00017,2026-05-29,2026-06-01,dent,Another vehicle hit the car while waiting at a traffic signal.,32450,30450,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000396,CUST00087,POL00010,2026-03-12,2026-03-16,dent,Vehicle suffered a dent after a rear-end collision.,30826,27826,Fraud,97,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000397,CUST00037,POL00003,2026-02-10,2026-02-11,smash,Vehicle was heavily damaged after colliding with another car.,69100,66100,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000398,CUST00037,POL00003,2026-02-11,2026-02-16,dent,Vehicle was dented after accidental impact with a divider.,14850,9850,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000399,CUST00040,POL00005,2026-06-17,2026-06-20,dent,Driver hit a roadside pole while taking a turn.,13936,12936,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000400,CUST00097,POL00009,2026-06-21,2026-06-24,smash,Vehicle was heavily damaged after colliding with another car.,67459,66459,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000401,CUST00008,POL00018,2026-07-12,2026-07-16,smash,Vehicle collided with a divider resulting in severe body damage.,170461,165461,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000402,CUST00015,POL00017,2026-05-04,2026-05-04,smash,A high-speed accident caused significant structural damage.,111105,108105,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000403,CUST00024,POL00024,2026-03-30,2026-04-02,glass_break,Windshield developed cracks following a highway incident.,35984,30984,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000404,CUST00004,POL00005,2026-03-23,2026-03-24,glass_break,Windshield developed cracks following a highway incident.,30608,25608,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000405,CUST00038,POL00017,2026-07-07,2026-07-12,glass_break,A stone from a truck shattered the front windshield.,22288,20288,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000406,CUST00013,POL00009,2026-03-07,2026-03-07,glass_break,Windshield cracked after being struck by flying debris.,29651,26651,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000407,CUST00084,POL00030,2026-03-19,2026-03-22,dent,Another vehicle hit the car while waiting at a traffic signal.,25994,22994,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000408,CUST00049,POL00010,2026-05-03,2026-05-05,glass_break,Side window broke after impact from roadside debris.,30283,29283,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000409,CUST00072,POL00004,2026-07-08,2026-07-13,glass_break,Side window broke after impact from roadside debris.,14578,12578,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000410,CUST00045,POL00024,2026-05-15,2026-05-15,glass_break,Windshield developed cracks following a highway incident.,43529,42529,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000411,CUST00021,POL00024,2026-07-23,2026-07-28,glass_break,Side window broke after impact from roadside debris.,25302,22302,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000412,CUST00087,POL00024,2026-06-15,2026-06-17,glass_break,Windshield developed cracks following a highway incident.,28073,26073,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000413,CUST00024,POL00001,2026-03-28,2026-03-29,glass_break,Windshield developed cracks following a highway incident.,23204,18204,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000414,CUST00080,POL00014,2026-02-18,2026-02-18,glass_break,Side window broke after impact from roadside debris.,38187,37187,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000415,CUST00005,POL00009,2026-03-04,2026-03-05,glass_break,Side window broke after impact from roadside debris.,32772,29772,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000416,CUST00062,POL00028,2026-05-30,2026-05-30,glass_break,A stone from a truck shattered the front windshield.,36261,35261,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000417,CUST00026,POL00017,2026-05-07,2026-05-10,glass_break,Side window broke after impact from roadside debris.,22992,19992,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000418,CUST00069,POL00014,2026-07-21,2026-07-26,glass_break,Side window broke after impact from roadside debris.,16850,14850,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000419,CUST00046,POL00003,2026-06-06,2026-06-09,glass_break,Windshield developed cracks following a highway incident.,44871,43871,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000420,CUST00046,POL00005,2026-06-09,2026-06-11,glass_break,Windshield developed cracks following a highway incident.,18710,17710,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000421,CUST00014,POL00002,2026-04-12,2026-04-13,glass_break,Glass damage occurred due to falling construction material.,35410,32410,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000422,CUST00061,POL00004,2026-04-06,2026-04-09,glass_break,Windshield cracked after being struck by flying debris.,22426,20426,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000423,CUST00022,POL00012,2026-02-14,2026-02-16,glass_break,A stone from a truck shattered the front windshield.,26917,21917,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000424,CUST00064,POL00002,2026-01-31,2026-02-03,glass_break,Windshield cracked after being struck by flying debris.,16351,15351,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000425,CUST00076,POL00010,2026-05-22,2026-05-22,glass_break,Glass damage occurred due to falling construction material.,30883,27883,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000426,CUST00094,POL00021,2026-07-07,2026-07-07,glass_break,Windshield developed cracks following a highway incident.,15121,14121,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000427,CUST00089,POL00002,2026-06-17,2026-06-19,glass_break,Windshield developed cracks following a highway incident.,14528,13528,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000428,CUST00044,POL00010,2026-05-22,2026-05-23,glass_break,Side window broke after impact from roadside debris.,27261,25261,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000429,CUST00090,POL00010,2026-07-22,2026-07-25,glass_break,Windshield developed cracks following a highway incident.,15398,14398,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000430,CUST00056,POL00003,2026-03-04,2026-03-07,glass_break,Side window broke after impact from roadside debris.,21672,20672,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000431,CUST00006,POL00024,2026-04-30,2026-05-01,dent,Vehicle suffered a dent after a rear-end collision.,14849,9849,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000432,CUST00012,POL00025,2026-07-01,2026-07-04,glass_break,Side window broke after impact from roadside debris.,26418,25418,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000433,CUST00066,POL00017,2026-07-08,2026-07-09,glass_break,Side window broke after impact from roadside debris.,14326,12326,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000434,CUST00005,POL00003,2026-03-29,2026-04-03,glass_break,Side window broke after impact from roadside debris.,18267,15267,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000435,CUST00075,POL00003,2026-05-10,2026-05-11,glass_break,Windshield cracked after being struck by flying debris.,21781,18781,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000436,CUST00019,POL00025,2026-07-10,2026-07-15,glass_break,Side window broke after impact from roadside debris.,16169,14169,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000437,CUST00064,POL00010,2026-02-10,2026-02-11,glass_break,Windshield cracked after being struck by flying debris.,34392,33392,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000438,CUST00022,POL00028,2026-06-21,2026-06-26,glass_break,Side window broke after impact from roadside debris.,12477,11477,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000439,CUST00062,POL00010,2026-03-25,2026-03-30,glass_break,Glass damage occurred due to falling construction material.,15617,10617,Fraud,90,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000440,CUST00075,POL00028,2026-04-25,2026-04-29,glass_break,Side window broke after impact from roadside debris.,31999,30999,Fraud,81,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000441,CUST00045,POL00012,2026-07-07,2026-07-09,glass_break,Windshield developed cracks following a highway incident.,32009,31009,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000442,CUST00060,POL00007,2026-02-15,2026-02-15,glass_break,Windshield cracked after being struck by flying debris.,24573,22573,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000443,CUST00071,POL00010,2026-06-07,2026-06-08,glass_break,A stone from a truck shattered the front windshield.,12933,7933,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000444,CUST00011,POL00018,2026-03-12,2026-03-13,glass_break,Windshield developed cracks following a highway incident.,18015,17015,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000445,CUST00081,POL00023,2026-07-19,2026-07-22,dent,A low-speed collision caused dents on the front bumper.,25021,20021,Fraud,93,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000446,CUST00074,POL00012,2026-06-06,2026-06-10,glass_break,Windshield cracked after being struck by flying debris.,39117,38117,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000447,CUST00029,POL00018,2026-05-16,2026-05-21,glass_break,Windshield cracked after being struck by flying debris.,24964,19964,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000448,CUST00008,POL00001,2026-06-12,2026-06-12,glass_break,Windshield developed cracks following a highway incident.,22023,17023,Fraud,100,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000449,CUST00086,POL00024,2026-04-19,2026-04-21,glass_break,Side window broke after impact from roadside debris.,34253,29253,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000450,CUST00061,POL00029,2026-02-15,2026-02-18,glass_break,Windshield developed cracks following a highway incident.,38177,37177,Fraud,75,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000451,CUST00054,POL00002,2026-05-20,2026-05-24,glass_break,Glass damage occurred due to falling construction material.,23231,22231,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000452,CUST00039,POL00014,2026-07-23,2026-07-26,glass_break,A stone from a truck shattered the front windshield.,13108,12108,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000453,CUST00013,POL00018,2026-06-16,2026-06-20,glass_break,Glass damage occurred due to falling construction material.,13867,11867,Fraud,80,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000454,CUST00063,POL00010,2026-04-11,2026-04-13,glass_break,Windshield developed cracks following a highway incident.,30253,29253,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000455,CUST00078,POL00025,2026-06-22,2026-06-27,glass_break,Glass damage occurred due to falling construction material.,27568,26568,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000456,CUST00079,POL00010,2026-07-10,2026-07-13,glass_break,Glass damage occurred due to falling construction material.,29477,27477,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000457,CUST00074,POL00003,2026-04-01,2026-04-04,dent,A low-speed collision caused dents on the front bumper.,11140,6140,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000458,CUST00025,POL00024,2026-06-14,2026-06-14,smash,Vehicle collided with a divider resulting in severe body damage.,168853,165853,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000459,CUST00046,POL00007,2026-06-25,2026-06-26,smash,Vehicle was heavily damaged after colliding with another car.,71907,68907,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000460,CUST00024,POL00030,2026-02-21,2026-02-23,smash,A high-speed accident caused significant structural damage.,166417,161417,Fraud,99,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000461,CUST00065,POL00021,2026-03-29,2026-04-03,scratch,Minor scratches occurred due to contact with another parked vehicle.,7658,6658,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000462,CUST00084,POL00023,2026-06-07,2026-06-11,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,14204,9204,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000463,CUST00072,POL00014,2026-04-09,2026-04-10,smash,Front portion of the vehicle was severely smashed during an accident.,109955,107955,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000464,CUST00033,POL00004,2026-06-03,2026-06-08,smash,A high-speed accident caused significant structural damage.,74117,72117,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000465,CUST00053,POL00014,2026-05-19,2026-05-23,smash,Vehicle was heavily damaged after colliding with another car.,144290,139290,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000466,CUST00079,POL00014,2026-03-25,2026-03-26,smash,Vehicle collided with a divider resulting in severe body damage.,148625,143625,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000467,CUST00069,POL00024,2026-06-04,2026-06-04,dent,Vehicle suffered a dent after a rear-end collision.,25659,23659,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000468,CUST00082,POL00002,2026-02-14,2026-02-16,dent,Vehicle was dented after accidental impact with a divider.,32936,27936,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000469,CUST00099,POL00023,2026-02-07,2026-02-09,smash,Major highway collision caused extensive front-end damage.,53775,52775,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000470,CUST00015,POL00009,2026-05-01,2026-05-04,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,9287,8287,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000471,CUST00012,POL00024,2026-03-24,2026-03-25,smash,Front portion of the vehicle was severely smashed during an accident.,54371,49371,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000472,CUST00072,POL00002,2026-06-08,2026-06-09,scratch,Side panel was scratched while passing through a narrow street.,13510,8510,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000473,CUST00046,POL00003,2026-05-18,2026-05-18,smash,Major highway collision caused extensive front-end damage.,90567,85567,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000474,CUST00047,POL00017,2026-02-13,2026-02-14,scratch,Vehicle was scratched while parking in a shopping mall.,12273,9273,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000475,CUST00022,POL00018,2026-02-17,2026-02-20,glass_break,A stone from a truck shattered the front windshield.,32451,31451,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000476,CUST00026,POL00028,2026-02-05,2026-02-10,smash,Front portion of the vehicle was severely smashed during an accident.,164783,161783,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000477,CUST00068,POL00028,2026-05-16,2026-05-18,smash,A high-speed accident caused significant structural damage.,97746,92746,Fraud,71,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000478,CUST00079,POL00017,2026-04-11,2026-04-13,smash,Front portion of the vehicle was severely smashed during an accident.,94659,91659,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000479,CUST00057,POL00014,2026-07-03,2026-07-05,smash,A high-speed accident caused significant structural damage.,53135,50135,Fraud,95,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000480,CUST00085,POL00023,2026-07-10,2026-07-13,scratch,Minor scratches occurred due to contact with another parked vehicle.,12980,11980,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000481,CUST00085,POL00028,2026-07-06,2026-07-09,dent,Vehicle was dented after accidental impact with a divider.,17655,12655,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000482,CUST00018,POL00017,2026-02-23,2026-02-26,glass_break,A stone from a truck shattered the front windshield.,12849,9849,Fraud,93,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000483,CUST00008,POL00029,2026-04-21,2026-04-21,dent,A low-speed collision caused dents on the front bumper.,33470,31470,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000484,CUST00030,POL00007,2026-05-13,2026-05-14,dent,Vehicle was dented after accidental impact with a divider.,16347,14347,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000485,CUST00097,POL00017,2026-06-15,2026-06-17,scratch,Vehicle was scratched while parking in a shopping mall.,5674,4674,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000486,CUST00092,POL00024,2026-05-07,2026-05-09,scratch,Vehicle was scratched while parking in a shopping mall.,12660,9660,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000487,CUST00039,POL00017,2026-03-21,2026-03-22,smash,Vehicle was heavily damaged after colliding with another car.,78736,77736,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000488,CUST00037,POL00017,2026-03-22,2026-03-22,scratch,Side panel was scratched while passing through a narrow street.,3216,1000,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000489,CUST00092,POL00025,2026-05-25,2026-05-27,dent,Driver hit a roadside pole while taking a turn.,21654,18654,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000490,CUST00075,POL00030,2026-06-17,2026-06-20,dent,Another vehicle hit the car while waiting at a traffic signal.,8295,5295,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000491,CUST00093,POL00009,2026-07-27,2026-07-28,dent,A low-speed collision caused dents on the front bumper.,32399,27399,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000492,CUST00025,POL00001,2026-06-29,2026-07-02,dent,A low-speed collision caused dents on the front bumper.,32837,27837,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000493,CUST00086,POL00030,2026-05-18,2026-05-19,dent,Driver hit a roadside pole while taking a turn.,27467,25467,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000494,CUST00092,POL00001,2026-07-26,2026-07-27,smash,Major highway collision caused extensive front-end damage.,84296,83296,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000495,CUST00077,POL00030,2026-04-20,2026-04-21,scratch,Side panel was scratched while passing through a narrow street.,5817,3817,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000496,CUST00029,POL00009,2026-03-21,2026-03-22,dent,A low-speed collision caused dents on the front bumper.,17094,16094,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000497,CUST00083,POL00017,2026-03-26,2026-03-26,dent,Another vehicle hit the car while waiting at a traffic signal.,9065,8065,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000498,CUST00016,POL00018,2026-03-29,2026-03-29,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,9226,8226,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000499,CUST00022,POL00024,2026-06-15,2026-06-17,dent,Another vehicle hit the car while waiting at a traffic signal.,18871,16871,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000500,CUST00060,POL00024,2026-06-01,2026-06-06,dent,Driver hit a roadside pole while taking a turn.,26724,24724,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000501,CUST00036,POL00017,2026-05-14,2026-05-19,smash,Major highway collision caused extensive front-end damage.,162920,160920,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000502,CUST00042,POL00030,2026-03-18,2026-03-19,smash,A high-speed accident caused significant structural damage.,79738,74738,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000503,CUST00041,POL00009,2026-03-09,2026-03-12,smash,A high-speed accident caused significant structural damage.,88753,83753,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000504,CUST00068,POL00003,2026-07-26,2026-07-29,smash,Vehicle was heavily damaged after colliding with another car.,56638,51638,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000505,CUST00059,POL00003,2026-04-16,2026-04-21,dent,Vehicle suffered a dent after a rear-end collision.,16872,13872,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000506,CUST00084,POL00012,2026-05-11,2026-05-14,smash,Front portion of the vehicle was severely smashed during an accident.,73160,72160,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000507,CUST00003,POL00004,2026-04-29,2026-05-01,smash,A high-speed accident caused significant structural damage.,62478,61478,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000508,CUST00039,POL00028,2026-06-29,2026-07-03,smash,Vehicle collided with a divider resulting in severe body damage.,94102,89102,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000509,CUST00099,POL00025,2026-04-22,2026-04-22,scratch,Scratches were noticed after the vehicle was parked overnight.,7651,4651,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000510,CUST00033,POL00029,2026-03-10,2026-03-15,smash,Vehicle collided with a divider resulting in severe body damage.,140468,135468,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000511,CUST00055,POL00029,2026-05-21,2026-05-22,smash,A high-speed accident caused significant structural damage.,100117,98117,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000512,CUST00084,POL00023,2026-06-11,2026-06-12,smash,Vehicle collided with a divider resulting in severe body damage.,62589,59589,Fraud,76,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000513,CUST00042,POL00002,2026-02-02,2026-02-04,smash,A high-speed accident caused significant structural damage.,114413,109413,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000514,CUST00023,POL00010,2026-03-18,2026-03-20,scratch,Side panel was scratched while passing through a narrow street.,14584,11584,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000515,CUST00013,POL00003,2026-04-10,2026-04-11,smash,Vehicle was heavily damaged after colliding with another car.,120471,117471,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000516,CUST00024,POL00021,2026-03-04,2026-03-08,smash,Vehicle was heavily damaged after colliding with another car.,168264,163264,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000517,CUST00092,POL00003,2026-03-05,2026-03-10,smash,A high-speed accident caused significant structural damage.,162788,159788,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000518,CUST00097,POL00018,2026-07-05,2026-07-09,smash,Front portion of the vehicle was severely smashed during an accident.,150713,148713,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000519,CUST00092,POL00009,2026-04-26,2026-04-29,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,10081,5081,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000520,CUST00066,POL00018,2026-07-03,2026-07-04,dent,A low-speed collision caused dents on the front bumper.,18527,17527,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000521,CUST00098,POL00029,2026-04-22,2026-04-27,smash,Front portion of the vehicle was severely smashed during an accident.,86749,84749,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000522,CUST00001,POL00002,2026-04-05,2026-04-09,dent,Another vehicle hit the car while waiting at a traffic signal.,24494,21494,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000523,CUST00045,POL00002,2026-04-08,2026-04-12,dent,A low-speed collision caused dents on the front bumper.,11149,10149,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000524,CUST00040,POL00010,2026-03-21,2026-03-25,dent,A low-speed collision caused dents on the front bumper.,12490,11490,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000525,CUST00005,POL00025,2026-05-09,2026-05-09,dent,Vehicle suffered a dent after a rear-end collision.,29743,28743,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000526,CUST00009,POL00021,2026-05-09,2026-05-14,dent,Vehicle suffered a dent after a rear-end collision.,21220,16220,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000527,CUST00043,POL00018,2026-04-07,2026-04-07,dent,Vehicle suffered a dent after a rear-end collision.,13233,8233,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000528,CUST00078,POL00023,2026-03-28,2026-03-30,scratch,Side panel was scratched while passing through a narrow street.,6034,4034,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000529,CUST00064,POL00017,2026-04-01,2026-04-01,dent,A low-speed collision caused dents on the front bumper.,18724,13724,Fraud,74,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000530,CUST00027,POL00004,2026-07-24,2026-07-26,scratch,Side panel was scratched while passing through a narrow street.,9369,4369,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000531,CUST00025,POL00017,2026-05-13,2026-05-13,dent,Driver hit a roadside pole while taking a turn.,23079,20079,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000532,CUST00036,POL00017,2026-02-02,2026-02-06,dent,A low-speed collision caused dents on the front bumper.,21834,18834,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000533,CUST00053,POL00023,2026-03-23,2026-03-24,dent,A low-speed collision caused dents on the front bumper.,16746,13746,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000534,CUST00034,POL00030,2026-05-06,2026-05-11,dent,Driver hit a roadside pole while taking a turn.,22747,21747,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000535,CUST00093,POL00028,2026-04-18,2026-04-18,dent,Another vehicle hit the car while waiting at a traffic signal.,14787,11787,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000536,CUST00017,POL00030,2026-02-01,2026-02-03,smash,Front portion of the vehicle was severely smashed during an accident.,87709,84709,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000537,CUST00067,POL00004,2026-06-01,2026-06-02,dent,Vehicle was dented after accidental impact with a divider.,24684,19684,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000538,CUST00037,POL00028,2026-06-29,2026-07-02,scratch,Vehicle was scratched while parking in a shopping mall.,5379,2379,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000539,CUST00021,POL00001,2026-03-09,2026-03-12,scratch,Side panel was scratched while passing through a narrow street.,13454,10454,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000540,CUST00057,POL00025,2026-03-21,2026-03-24,scratch,Scratches were noticed after the vehicle was parked overnight.,9855,6855,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000541,CUST00004,POL00005,2026-07-10,2026-07-13,dent,A low-speed collision caused dents on the front bumper.,21178,19178,Fraud,87,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000542,CUST00022,POL00009,2026-07-20,2026-07-25,smash,A high-speed accident caused significant structural damage.,128328,123328,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000543,CUST00014,POL00028,2026-03-08,2026-03-11,smash,Major highway collision caused extensive front-end damage.,57063,54063,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000544,CUST00060,POL00001,2026-05-15,2026-05-15,smash,Front portion of the vehicle was severely smashed during an accident.,87005,85005,Fraud,91,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000545,CUST00042,POL00023,2026-05-21,2026-05-21,dent,Vehicle was dented after accidental impact with a divider.,13130,11130,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000546,CUST00065,POL00029,2026-05-02,2026-05-05,dent,Vehicle suffered a dent after a rear-end collision.,9251,4251,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000547,CUST00078,POL00028,2026-07-08,2026-07-13,smash,Front portion of the vehicle was severely smashed during an accident.,117527,114527,Fraud,95,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000548,CUST00057,POL00010,2026-04-22,2026-04-25,dent,Vehicle suffered a dent after a rear-end collision.,27443,26443,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000549,CUST00013,POL00004,2026-02-26,2026-02-27,dent,Vehicle was dented after accidental impact with a divider.,26772,25772,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000550,CUST00079,POL00023,2026-03-13,2026-03-18,smash,Vehicle collided with a divider resulting in severe body damage.,127089,126089,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000551,CUST00018,POL00028,2026-07-17,2026-07-21,smash,Front portion of the vehicle was severely smashed during an accident.,100229,97229,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000552,CUST00085,POL00010,2026-07-09,2026-07-13,scratch,Side panel was scratched while passing through a narrow street.,5282,2282,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000553,CUST00096,POL00007,2026-04-10,2026-04-10,dent,Vehicle was dented after accidental impact with a divider.,21774,19774,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000554,CUST00088,POL00023,2026-04-12,2026-04-12,smash,Vehicle collided with a divider resulting in severe body damage.,91900,88900,Fraud,76,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000555,CUST00018,POL00003,2026-02-03,2026-02-08,scratch,Minor scratches occurred due to contact with another parked vehicle.,5500,1000,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000556,CUST00088,POL00014,2026-06-27,2026-06-30,dent,Another vehicle hit the car while waiting at a traffic signal.,8091,6091,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000557,CUST00074,POL00009,2026-05-10,2026-05-10,scratch,Scratches were noticed after the vehicle was parked overnight.,14105,9105,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000558,CUST00083,POL00002,2026-03-01,2026-03-04,smash,Front portion of the vehicle was severely smashed during an accident.,114328,111328,Fraud,97,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000559,CUST00017,POL00018,2026-02-26,2026-03-02,smash,Front portion of the vehicle was severely smashed during an accident.,104709,101709,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000560,CUST00073,POL00002,2026-02-21,2026-02-23,dent,A low-speed collision caused dents on the front bumper.,17215,12215,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000561,CUST00061,POL00025,2026-02-18,2026-02-19,dent,Vehicle was dented after accidental impact with a divider.,15616,12616,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000562,CUST00033,POL00029,2026-07-21,2026-07-23,dent,Vehicle suffered a dent after a rear-end collision.,17479,12479,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000563,CUST00026,POL00029,2026-05-12,2026-05-13,dent,A low-speed collision caused dents on the front bumper.,27166,26166,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000564,CUST00018,POL00024,2026-04-29,2026-05-01,dent,Vehicle was dented after accidental impact with a divider.,15460,14460,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000565,CUST00027,POL00010,2026-04-27,2026-05-02,scratch,Side panel was scratched while passing through a narrow street.,4207,2207,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000566,CUST00034,POL00025,2026-06-02,2026-06-02,dent,Vehicle suffered a dent after a rear-end collision.,22414,19414,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000567,CUST00065,POL00029,2026-07-13,2026-07-13,dent,Driver hit a roadside pole while taking a turn.,26919,23919,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000568,CUST00050,POL00030,2026-05-23,2026-05-24,smash,Vehicle was heavily damaged after colliding with another car.,132291,130291,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000569,CUST00094,POL00004,2026-03-11,2026-03-14,smash,Vehicle was heavily damaged after colliding with another car.,131264,130264,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000570,CUST00032,POL00003,2026-03-21,2026-03-21,dent,A low-speed collision caused dents on the front bumper.,31580,26580,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000571,CUST00037,POL00014,2026-04-19,2026-04-23,dent,A low-speed collision caused dents on the front bumper.,9095,4095,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000572,CUST00022,POL00018,2026-05-03,2026-05-06,glass_break,Windshield cracked after being struck by flying debris.,38230,35230,Fraud,75,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000573,CUST00076,POL00012,2026-04-09,2026-04-14,glass_break,Windshield developed cracks following a highway incident.,42292,41292,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000574,CUST00045,POL00021,2026-03-03,2026-03-08,glass_break,Windshield developed cracks following a highway incident.,30539,27539,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000575,CUST00023,POL00023,2026-04-23,2026-04-26,glass_break,Windshield cracked after being struck by flying debris.,22897,17897,Fraud,75,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000576,CUST00098,POL00021,2026-02-28,2026-03-02,glass_break,Windshield developed cracks following a highway incident.,27240,22240,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000577,CUST00026,POL00021,2026-03-26,2026-03-26,glass_break,Glass damage occurred due to falling construction material.,16453,11453,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000578,CUST00077,POL00025,2026-04-13,2026-04-16,glass_break,Glass damage occurred due to falling construction material.,30677,28677,Fraud,99,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000579,CUST00061,POL00010,2026-03-07,2026-03-12,glass_break,Glass damage occurred due to falling construction material.,20235,17235,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000580,CUST00043,POL00018,2026-02-16,2026-02-17,glass_break,Side window broke after impact from roadside debris.,13506,11506,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000581,CUST00094,POL00009,2026-03-23,2026-03-27,glass_break,Windshield developed cracks following a highway incident.,18655,16655,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000582,CUST00059,POL00014,2026-07-25,2026-07-25,dent,A low-speed collision caused dents on the front bumper.,26813,24813,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000583,CUST00091,POL00017,2026-05-30,2026-06-04,glass_break,Glass damage occurred due to falling construction material.,21503,16503,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000584,CUST00058,POL00030,2026-03-05,2026-03-09,glass_break,Windshield developed cracks following a highway incident.,31205,28205,Fraud,82,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000585,CUST00047,POL00017,2026-05-15,2026-05-15,smash,Vehicle was heavily damaged after colliding with another car.,130492,125492,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000586,CUST00010,POL00021,2026-02-15,2026-02-19,glass_break,Windshield cracked after being struck by flying debris.,27990,22990,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000587,CUST00027,POL00003,2026-05-26,2026-05-28,glass_break,Glass damage occurred due to falling construction material.,37753,34753,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000588,CUST00030,POL00030,2026-04-24,2026-04-29,smash,Vehicle collided with a divider resulting in severe body damage.,109771,107771,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000589,CUST00030,POL00018,2026-05-14,2026-05-16,glass_break,A stone from a truck shattered the front windshield.,35560,32560,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000590,CUST00025,POL00010,2026-05-17,2026-05-21,glass_break,Windshield developed cracks following a highway incident.,13516,8516,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000591,CUST00071,POL00004,2026-05-07,2026-05-10,glass_break,Glass damage occurred due to falling construction material.,30788,29788,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000592,CUST00041,POL00009,2026-05-26,2026-05-27,smash,Major highway collision caused extensive front-end damage.,118767,117767,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000593,CUST00085,POL00030,2026-05-28,2026-05-28,glass_break,Side window broke after impact from roadside debris.,44287,41287,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000594,CUST00001,POL00007,2026-05-23,2026-05-26,smash,Vehicle was heavily damaged after colliding with another car.,77313,76313,Fraud,90,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000595,CUST00021,POL00003,2026-02-11,2026-02-13,glass_break,A stone from a truck shattered the front windshield.,37102,35102,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000596,CUST00025,POL00025,2026-07-25,2026-07-29,glass_break,Windshield developed cracks following a highway incident.,40398,39398,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000597,CUST00071,POL00030,2026-04-28,2026-04-28,dent,Vehicle suffered a dent after a rear-end collision.,22247,19247,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000598,CUST00054,POL00028,2026-03-05,2026-03-09,scratch,Vehicle was scratched while parking in a shopping mall.,6609,4609,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000599,CUST00040,POL00030,2026-03-09,2026-03-13,glass_break,Windshield cracked after being struck by flying debris.,17667,15667,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000600,CUST00082,POL00018,2026-07-17,2026-07-18,smash,Front portion of the vehicle was severely smashed during an accident.,175711,172711,Fraud,71,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000601,CUST00080,POL00023,2026-05-19,2026-05-19,smash,Major highway collision caused extensive front-end damage.,140347,137347,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000602,CUST00055,POL00025,2026-02-27,2026-02-27,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,7287,2287,Fraud,95,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000603,CUST00008,POL00017,2026-02-16,2026-02-19,glass_break,Windshield developed cracks following a highway incident.,12218,11218,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000604,CUST00008,POL00029,2026-04-28,2026-04-30,glass_break,Glass damage occurred due to falling construction material.,34813,33813,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000605,CUST00015,POL00030,2026-07-29,2026-07-29,glass_break,Side window broke after impact from roadside debris.,17220,14220,Fraud,76,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000606,CUST00074,POL00012,2026-05-29,2026-06-03,scratch,Minor scratches occurred due to contact with another parked vehicle.,13687,10687,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000607,CUST00034,POL00010,2026-05-13,2026-05-17,scratch,Vehicle was scratched while parking in a shopping mall.,13089,10089,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000608,CUST00063,POL00010,2026-06-23,2026-06-28,glass_break,Side window broke after impact from roadside debris.,36936,31936,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000609,CUST00020,POL00001,2026-05-01,2026-05-03,glass_break,Windshield developed cracks following a highway incident.,17114,14114,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000610,CUST00017,POL00024,2026-06-29,2026-06-30,smash,Vehicle collided with a divider resulting in severe body damage.,98749,97749,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000611,CUST00030,POL00003,2026-05-29,2026-06-02,smash,Vehicle was heavily damaged after colliding with another car.,171721,168721,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000612,CUST00081,POL00014,2026-07-29,2026-08-02,smash,Vehicle was heavily damaged after colliding with another car.,134146,131146,Fraud,86,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000613,CUST00060,POL00023,2026-04-28,2026-05-02,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,12175,10175,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000614,CUST00072,POL00021,2026-04-28,2026-04-30,glass_break,Windshield cracked after being struck by flying debris.,13939,10939,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000615,CUST00077,POL00010,2026-06-17,2026-06-19,glass_break,Windshield developed cracks following a highway incident.,41111,40111,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000616,CUST00005,POL00029,2026-06-16,2026-06-21,glass_break,Windshield developed cracks following a highway incident.,25077,20077,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000617,CUST00058,POL00014,2026-05-16,2026-05-20,dent,Another vehicle hit the car while waiting at a traffic signal.,15381,13381,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000618,CUST00088,POL00002,2026-06-27,2026-06-29,glass_break,Side window broke after impact from roadside debris.,39192,36192,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000619,CUST00046,POL00030,2026-06-13,2026-06-15,scratch,Scratches were noticed after the vehicle was parked overnight.,4239,1239,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000620,CUST00084,POL00030,2026-05-13,2026-05-18,dent,Another vehicle hit the car while waiting at a traffic signal.,22238,20238,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000621,CUST00089,POL00023,2026-02-18,2026-02-23,scratch,Vehicle was scratched while parking in a shopping mall.,7877,5877,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000622,CUST00023,POL00009,2026-04-27,2026-05-01,scratch,Vehicle was scratched while parking in a shopping mall.,5445,3445,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000623,CUST00039,POL00001,2026-02-21,2026-02-26,scratch,Side panel was scratched while passing through a narrow street.,13374,12374,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000624,CUST00022,POL00023,2026-02-19,2026-02-24,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,6883,5883,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000625,CUST00065,POL00025,2026-07-29,2026-07-30,scratch,Scratches were noticed after the vehicle was parked overnight.,14588,12588,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000626,CUST00050,POL00018,2026-05-09,2026-05-12,scratch,Side panel was scratched while passing through a narrow street.,7621,5621,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000627,CUST00080,POL00007,2026-06-12,2026-06-14,scratch,Scratches were noticed after the vehicle was parked overnight.,13270,12270,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000628,CUST00087,POL00007,2026-06-22,2026-06-24,scratch,Side panel was scratched while passing through a narrow street.,3175,1000,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000629,CUST00026,POL00004,2026-04-17,2026-04-17,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,5477,4477,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000630,CUST00001,POL00023,2026-06-08,2026-06-13,scratch,Vehicle was scratched while parking in a shopping mall.,14950,13950,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000631,CUST00043,POL00029,2026-07-22,2026-07-26,scratch,Side panel was scratched while passing through a narrow street.,7473,5473,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000632,CUST00010,POL00024,2026-06-12,2026-06-16,scratch,Scratches were noticed after the vehicle was parked overnight.,9529,7529,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000633,CUST00060,POL00012,2026-07-27,2026-08-01,scratch,Minor scratches occurred due to contact with another parked vehicle.,4608,3608,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000634,CUST00088,POL00002,2026-07-01,2026-07-06,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,13368,8368,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000635,CUST00010,POL00012,2026-07-07,2026-07-08,scratch,Minor scratches occurred due to contact with another parked vehicle.,6373,3373,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000636,CUST00088,POL00005,2026-05-30,2026-06-01,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,13314,12314,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000637,CUST00024,POL00010,2026-07-21,2026-07-23,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,3753,2753,Fraud,90,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000638,CUST00039,POL00003,2026-03-04,2026-03-08,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,11414,10414,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000639,CUST00034,POL00004,2026-05-18,2026-05-19,scratch,Side panel was scratched while passing through a narrow street.,7395,6395,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000640,CUST00038,POL00021,2026-04-20,2026-04-25,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,7200,6200,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000641,CUST00002,POL00025,2026-04-23,2026-04-27,scratch,Vehicle was scratched while parking in a shopping mall.,12966,7966,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000642,CUST00006,POL00025,2026-05-29,2026-05-30,scratch,Scratches were noticed after the vehicle was parked overnight.,8759,6759,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000643,CUST00072,POL00024,2026-06-09,2026-06-09,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,6486,3486,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000644,CUST00018,POL00009,2026-06-14,2026-06-15,scratch,Minor scratches occurred due to contact with another parked vehicle.,10007,5007,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000645,CUST00055,POL00010,2026-02-03,2026-02-07,scratch,Scratches were noticed after the vehicle was parked overnight.,14937,12937,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000646,CUST00050,POL00012,2026-02-24,2026-02-27,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,9894,6894,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000647,CUST00062,POL00025,2026-04-15,2026-04-16,scratch,Scratches were noticed after the vehicle was parked overnight.,11578,6578,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000648,CUST00027,POL00002,2026-02-12,2026-02-17,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,9698,4698,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000649,CUST00078,POL00009,2026-04-02,2026-04-07,scratch,Scratches were noticed after the vehicle was parked overnight.,6831,3831,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000650,CUST00041,POL00028,2026-04-22,2026-04-24,scratch,Minor scratches occurred due to contact with another parked vehicle.,6196,4196,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000651,CUST00028,POL00007,2026-03-17,2026-03-20,scratch,Side panel was scratched while passing through a narrow street.,13196,12196,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000652,CUST00077,POL00009,2026-03-30,2026-04-04,scratch,Side panel was scratched while passing through a narrow street.,8282,7282,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000653,CUST00025,POL00002,2026-02-05,2026-02-09,scratch,Minor scratches occurred due to contact with another parked vehicle.,8423,6423,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000654,CUST00058,POL00007,2026-03-11,2026-03-13,scratch,Vehicle was scratched while parking in a shopping mall.,9301,7301,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000655,CUST00011,POL00030,2026-02-18,2026-02-21,scratch,Side panel was scratched while passing through a narrow street.,10602,5602,Fraud,99,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000656,CUST00027,POL00005,2026-02-13,2026-02-16,scratch,Minor scratches occurred due to contact with another parked vehicle.,14780,11780,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000657,CUST00034,POL00002,2026-06-30,2026-07-04,scratch,Vehicle was scratched while parking in a shopping mall.,8484,3484,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000658,CUST00059,POL00028,2026-05-03,2026-05-05,glass_break,Windshield cracked after being struck by flying debris.,15478,12478,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000659,CUST00019,POL00010,2026-03-19,2026-03-20,glass_break,Glass damage occurred due to falling construction material.,20904,15904,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000660,CUST00066,POL00030,2026-04-01,2026-04-01,glass_break,A stone from a truck shattered the front windshield.,36666,31666,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000661,CUST00024,POL00025,2026-03-12,2026-03-13,glass_break,Side window broke after impact from roadside debris.,27047,24047,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000662,CUST00070,POL00005,2026-03-04,2026-03-08,glass_break,Glass damage occurred due to falling construction material.,32530,30530,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000663,CUST00062,POL00028,2026-04-15,2026-04-16,glass_break,A stone from a truck shattered the front windshield.,18199,17199,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000664,CUST00032,POL00018,2026-05-22,2026-05-22,glass_break,Glass damage occurred due to falling construction material.,40477,35477,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000665,CUST00083,POL00024,2026-07-17,2026-07-22,scratch,Scratches were noticed after the vehicle was parked overnight.,10376,5376,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000666,CUST00039,POL00028,2026-04-26,2026-04-29,dent,A low-speed collision caused dents on the front bumper.,22428,20428,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000667,CUST00066,POL00012,2026-04-21,2026-04-23,dent,Vehicle was dented after accidental impact with a divider.,9232,6232,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000668,CUST00017,POL00017,2026-04-26,2026-04-26,dent,Vehicle suffered a dent after a rear-end collision.,14553,11553,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000669,CUST00087,POL00012,2026-06-25,2026-06-26,smash,Vehicle collided with a divider resulting in severe body damage.,129623,126623,Fraud,79,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000670,CUST00073,POL00025,2026-03-22,2026-03-23,scratch,Scratches were noticed after the vehicle was parked overnight.,13622,11622,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000671,CUST00079,POL00003,2026-03-16,2026-03-19,smash,Major highway collision caused extensive front-end damage.,143343,140343,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000672,CUST00018,POL00024,2026-05-08,2026-05-10,scratch,Vehicle was scratched while parking in a shopping mall.,6202,1202,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000673,CUST00063,POL00023,2026-06-06,2026-06-06,scratch,Vehicle was scratched while parking in a shopping mall.,13477,8477,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000674,CUST00028,POL00001,2026-05-02,2026-05-04,scratch,Vehicle was scratched while parking in a shopping mall.,12703,9703,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000675,CUST00091,POL00005,2026-03-28,2026-03-29,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,13922,8922,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000676,CUST00081,POL00012,2026-03-08,2026-03-10,smash,A high-speed accident caused significant structural damage.,145385,143385,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000677,CUST00058,POL00010,2026-05-01,2026-05-03,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,8335,5335,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000678,CUST00087,POL00001,2026-04-23,2026-04-26,scratch,Minor scratches occurred due to contact with another parked vehicle.,6626,1626,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000679,CUST00034,POL00021,2026-07-02,2026-07-06,scratch,Minor scratches occurred due to contact with another parked vehicle.,9572,7572,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000680,CUST00086,POL00014,2026-04-25,2026-04-30,scratch,Vehicle was scratched while parking in a shopping mall.,7607,2607,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000681,CUST00030,POL00010,2026-05-17,2026-05-17,scratch,Vehicle was scratched while parking in a shopping mall.,7779,5779,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000682,CUST00066,POL00018,2026-07-08,2026-07-10,scratch,Vehicle was scratched while parking in a shopping mall.,10332,9332,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000683,CUST00087,POL00024,2026-02-07,2026-02-10,scratch,Side panel was scratched while passing through a narrow street.,6604,4604,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000684,CUST00099,POL00005,2026-05-15,2026-05-18,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,5637,4637,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000685,CUST00025,POL00030,2026-05-21,2026-05-24,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,11115,9115,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000686,CUST00098,POL00002,2026-04-20,2026-04-20,scratch,Scratches were noticed after the vehicle was parked overnight.,14637,12637,Fraud,83,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000687,CUST00002,POL00012,2026-04-23,2026-04-27,scratch,Side panel was scratched while passing through a narrow street.,3688,1000,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000688,CUST00041,POL00003,2026-05-18,2026-05-21,scratch,Minor scratches occurred due to contact with another parked vehicle.,7145,4145,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000689,CUST00045,POL00029,2026-04-07,2026-04-09,scratch,Scratches were noticed after the vehicle was parked overnight.,12980,10980,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000690,CUST00042,POL00028,2026-07-28,2026-08-01,scratch,Scratches were noticed after the vehicle was parked overnight.,14763,9763,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000691,CUST00003,POL00004,2026-03-25,2026-03-28,scratch,Side panel was scratched while passing through a narrow street.,8588,5588,Fraud,79,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000692,CUST00042,POL00029,2026-06-29,2026-07-01,scratch,Scratches were noticed after the vehicle was parked overnight.,13518,12518,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000693,CUST00094,POL00014,2026-07-02,2026-07-02,scratch,Scratches were noticed after the vehicle was parked overnight.,5526,3526,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000694,CUST00087,POL00010,2026-03-07,2026-03-12,scratch,Side panel was scratched while passing through a narrow street.,5893,2893,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000695,CUST00083,POL00025,2026-02-18,2026-02-23,scratch,Side panel was scratched while passing through a narrow street.,12251,11251,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000696,CUST00085,POL00009,2026-06-01,2026-06-02,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,7162,2162,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000697,CUST00055,POL00017,2026-07-20,2026-07-24,scratch,Scratches were noticed after the vehicle was parked overnight.,13019,12019,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000698,CUST00024,POL00005,2026-06-20,2026-06-21,scratch,Vehicle was scratched while parking in a shopping mall.,6710,3710,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000699,CUST00004,POL00018,2026-03-05,2026-03-09,smash,Front portion of the vehicle was severely smashed during an accident.,105406,103406,Fraud,78,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000700,CUST00008,POL00021,2026-02-12,2026-02-12,scratch,Scratches were noticed after the vehicle was parked overnight.,14332,9332,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000701,CUST00077,POL00012,2026-05-22,2026-05-26,glass_break,Side window broke after impact from roadside debris.,42625,37625,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000702,CUST00089,POL00007,2026-07-20,2026-07-25,scratch,Minor scratches occurred due to contact with another parked vehicle.,3732,1000,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000703,CUST00056,POL00002,2026-04-11,2026-04-16,scratch,Vehicle was scratched while parking in a shopping mall.,12236,7236,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000704,CUST00015,POL00028,2026-06-20,2026-06-24,glass_break,A stone from a truck shattered the front windshield.,16255,13255,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000705,CUST00069,POL00023,2026-07-18,2026-07-20,dent,Vehicle was dented after accidental impact with a divider.,26663,24663,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000706,CUST00023,POL00018,2026-07-26,2026-07-26,glass_break,Windshield cracked after being struck by flying debris.,38510,35510,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000707,CUST00075,POL00014,2026-04-18,2026-04-22,glass_break,A stone from a truck shattered the front windshield.,43181,41181,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000708,CUST00035,POL00021,2026-06-21,2026-06-25,smash,Vehicle was heavily damaged after colliding with another car.,178373,173373,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000709,CUST00015,POL00018,2026-02-26,2026-02-27,smash,Front portion of the vehicle was severely smashed during an accident.,67188,65188,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000710,CUST00050,POL00010,2026-06-18,2026-06-23,smash,Vehicle was heavily damaged after colliding with another car.,179344,174344,Fraud,91,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000711,CUST00074,POL00005,2026-02-13,2026-02-14,smash,Front portion of the vehicle was severely smashed during an accident.,116597,113597,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000712,CUST00040,POL00017,2026-03-05,2026-03-10,smash,A high-speed accident caused significant structural damage.,97230,94230,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000713,CUST00021,POL00003,2026-05-31,2026-06-01,smash,Major highway collision caused extensive front-end damage.,110902,108902,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000714,CUST00010,POL00028,2026-06-10,2026-06-11,dent,A low-speed collision caused dents on the front bumper.,21476,19476,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000715,CUST00092,POL00025,2026-06-28,2026-07-03,glass_break,Windshield developed cracks following a highway incident.,41670,36670,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000716,CUST00096,POL00010,2026-06-25,2026-06-26,smash,Front portion of the vehicle was severely smashed during an accident.,80967,79967,Fraud,87,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000717,CUST00063,POL00030,2026-05-05,2026-05-09,smash,A high-speed accident caused significant structural damage.,57294,55294,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000718,CUST00100,POL00030,2026-02-16,2026-02-19,dent,Vehicle suffered a dent after a rear-end collision.,12789,11789,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000719,CUST00035,POL00009,2026-03-15,2026-03-20,scratch,Scratches were noticed after the vehicle was parked overnight.,14427,12427,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000720,CUST00054,POL00007,2026-03-25,2026-03-26,smash,Vehicle collided with a divider resulting in severe body damage.,90310,85310,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000721,CUST00016,POL00003,2026-07-13,2026-07-18,smash,Major highway collision caused extensive front-end damage.,92240,89240,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000722,CUST00084,POL00018,2026-04-27,2026-04-27,smash,Vehicle was heavily damaged after colliding with another car.,170996,168996,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000723,CUST00004,POL00002,2026-02-21,2026-02-22,smash,Major highway collision caused extensive front-end damage.,101173,100173,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000724,CUST00072,POL00017,2026-06-29,2026-07-02,smash,Vehicle was heavily damaged after colliding with another car.,102625,101625,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000725,CUST00052,POL00024,2026-04-30,2026-05-04,smash,Vehicle was heavily damaged after colliding with another car.,109577,108577,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000726,CUST00074,POL00014,2026-06-23,2026-06-25,glass_break,Windshield cracked after being struck by flying debris.,17395,14395,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000727,CUST00001,POL00005,2026-06-07,2026-06-10,smash,Major highway collision caused extensive front-end damage.,141516,139516,Fraud,94,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000728,CUST00030,POL00029,2026-07-10,2026-07-15,smash,Vehicle collided with a divider resulting in severe body damage.,75490,72490,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000729,CUST00020,POL00012,2026-07-02,2026-07-06,smash,Major highway collision caused extensive front-end damage.,88343,86343,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000730,CUST00038,POL00004,2026-02-22,2026-02-27,smash,Vehicle collided with a divider resulting in severe body damage.,131813,130813,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000731,CUST00039,POL00023,2026-06-01,2026-06-04,smash,Vehicle was heavily damaged after colliding with another car.,72972,69972,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000732,CUST00025,POL00021,2026-07-22,2026-07-27,glass_break,Glass damage occurred due to falling construction material.,22957,17957,Fraud,87,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000733,CUST00048,POL00001,2026-03-19,2026-03-21,dent,Another vehicle hit the car while waiting at a traffic signal.,19676,17676,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000734,CUST00045,POL00004,2026-04-22,2026-04-27,smash,Vehicle collided with a divider resulting in severe body damage.,116816,111816,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000735,CUST00005,POL00010,2026-06-11,2026-06-16,smash,A high-speed accident caused significant structural damage.,140741,139741,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000736,CUST00046,POL00024,2026-07-15,2026-07-18,scratch,Side panel was scratched while passing through a narrow street.,5294,2294,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000737,CUST00067,POL00024,2026-07-13,2026-07-15,smash,Vehicle collided with a divider resulting in severe body damage.,164340,162340,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000738,CUST00021,POL00003,2026-04-09,2026-04-09,smash,Vehicle was heavily damaged after colliding with another car.,69077,68077,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000739,CUST00085,POL00007,2026-05-23,2026-05-26,dent,Driver hit a roadside pole while taking a turn.,21028,20028,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000740,CUST00096,POL00017,2026-06-05,2026-06-10,scratch,Scratches were noticed after the vehicle was parked overnight.,5788,2788,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000741,CUST00059,POL00005,2026-06-30,2026-07-03,glass_break,Windshield developed cracks following a highway incident.,37609,35609,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000742,CUST00043,POL00030,2026-06-16,2026-06-21,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,8233,3233,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000743,CUST00013,POL00018,2026-06-22,2026-06-22,scratch,Vehicle was scratched while parking in a shopping mall.,3996,1000,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000744,CUST00079,POL00012,2026-04-16,2026-04-16,dent,Another vehicle hit the car while waiting at a traffic signal.,16827,14827,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000745,CUST00094,POL00005,2026-03-01,2026-03-05,dent,A low-speed collision caused dents on the front bumper.,26022,24022,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000746,CUST00014,POL00012,2026-05-05,2026-05-09,dent,Driver hit a roadside pole while taking a turn.,24728,22728,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000747,CUST00058,POL00009,2026-04-25,2026-04-30,dent,Vehicle suffered a dent after a rear-end collision.,16244,15244,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000748,CUST00092,POL00014,2026-07-20,2026-07-25,dent,Another vehicle hit the car while waiting at a traffic signal.,20576,17576,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000749,CUST00010,POL00009,2026-07-11,2026-07-11,scratch,Scratches were noticed after the vehicle was parked overnight.,6990,3990,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000750,CUST00005,POL00007,2026-03-19,2026-03-23,scratch,Vehicle was scratched while parking in a shopping mall.,8406,3406,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000751,CUST00014,POL00010,2026-05-31,2026-06-01,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,14159,11159,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000752,CUST00015,POL00003,2026-07-11,2026-07-13,smash,Major highway collision caused extensive front-end damage.,105842,104842,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000753,CUST00097,POL00024,2026-05-04,2026-05-05,smash,A high-speed accident caused significant structural damage.,124459,119459,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000754,CUST00075,POL00023,2026-07-13,2026-07-17,dent,Driver hit a roadside pole while taking a turn.,13997,12997,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000755,CUST00082,POL00018,2026-07-07,2026-07-11,smash,Vehicle collided with a divider resulting in severe body damage.,80095,77095,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000756,CUST00050,POL00028,2026-04-16,2026-04-21,smash,Vehicle was heavily damaged after colliding with another car.,134765,129765,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000757,CUST00087,POL00024,2026-06-30,2026-07-02,smash,A high-speed accident caused significant structural damage.,122246,121246,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000758,CUST00033,POL00028,2026-07-23,2026-07-24,smash,Vehicle collided with a divider resulting in severe body damage.,118449,113449,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000759,CUST00051,POL00018,2026-05-23,2026-05-28,glass_break,Windshield developed cracks following a highway incident.,13749,10749,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000760,CUST00002,POL00003,2026-04-09,2026-04-11,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,5148,2148,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000761,CUST00068,POL00005,2026-02-07,2026-02-09,smash,Front portion of the vehicle was severely smashed during an accident.,77930,75930,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000762,CUST00065,POL00025,2026-07-13,2026-07-14,dent,Vehicle was dented after accidental impact with a divider.,8718,5718,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000763,CUST00032,POL00007,2026-03-21,2026-03-25,dent,Driver hit a roadside pole while taking a turn.,19883,14883,Fraud,89,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000764,CUST00063,POL00030,2026-02-23,2026-02-28,dent,Vehicle was dented after accidental impact with a divider.,11436,9436,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000765,CUST00070,POL00030,2026-03-31,2026-04-04,smash,A high-speed accident caused significant structural damage.,163463,158463,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000766,CUST00099,POL00001,2026-03-10,2026-03-12,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,13878,8878,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000767,CUST00056,POL00023,2026-04-01,2026-04-02,dent,A low-speed collision caused dents on the front bumper.,34707,31707,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000768,CUST00040,POL00005,2026-03-30,2026-04-01,dent,Driver hit a roadside pole while taking a turn.,23341,21341,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000769,CUST00088,POL00017,2026-06-30,2026-07-03,glass_break,A stone from a truck shattered the front windshield.,19532,18532,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000770,CUST00078,POL00007,2026-02-03,2026-02-05,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,6391,5391,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000771,CUST00044,POL00017,2026-07-26,2026-07-27,glass_break,Windshield developed cracks following a highway incident.,15472,14472,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000772,CUST00037,POL00003,2026-04-29,2026-05-01,dent,Vehicle suffered a dent after a rear-end collision.,27584,25584,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000773,CUST00072,POL00023,2026-05-07,2026-05-11,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,8175,5175,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000774,CUST00031,POL00001,2026-03-04,2026-03-04,glass_break,Side window broke after impact from roadside debris.,36853,35853,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000775,CUST00025,POL00001,2026-04-21,2026-04-24,smash,Vehicle was heavily damaged after colliding with another car.,52341,49341,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000776,CUST00012,POL00002,2026-04-07,2026-04-07,glass_break,Side window broke after impact from roadside debris.,27872,22872,Fraud,91,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000777,CUST00043,POL00021,2026-06-29,2026-07-01,glass_break,Side window broke after impact from roadside debris.,42447,41447,Fraud,71,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000778,CUST00099,POL00010,2026-06-20,2026-06-23,glass_break,Windshield cracked after being struck by flying debris.,38290,33290,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000779,CUST00050,POL00014,2026-07-07,2026-07-08,dent,Driver hit a roadside pole while taking a turn.,22557,21557,Fraud,95,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000780,CUST00052,POL00017,2026-07-21,2026-07-26,glass_break,Side window broke after impact from roadside debris.,36826,35826,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000781,CUST00038,POL00007,2026-05-28,2026-05-28,smash,A high-speed accident caused significant structural damage.,111604,109604,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000782,CUST00099,POL00018,2026-01-31,2026-02-04,smash,Vehicle was heavily damaged after colliding with another car.,93515,88515,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000783,CUST00087,POL00007,2026-03-21,2026-03-26,dent,Vehicle suffered a dent after a rear-end collision.,32275,31275,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000784,CUST00077,POL00017,2026-06-26,2026-06-29,dent,Vehicle suffered a dent after a rear-end collision.,34580,31580,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000785,CUST00100,POL00002,2026-07-01,2026-07-02,glass_break,Glass damage occurred due to falling construction material.,43270,41270,Fraud,92,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000786,CUST00058,POL00025,2026-06-11,2026-06-14,smash,Vehicle was heavily damaged after colliding with another car.,99188,94188,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000787,CUST00069,POL00002,2026-07-13,2026-07-13,smash,Major highway collision caused extensive front-end damage.,118144,116144,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000788,CUST00084,POL00017,2026-05-11,2026-05-13,smash,Major highway collision caused extensive front-end damage.,152300,150300,Fraud,83,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000789,CUST00039,POL00009,2026-03-10,2026-03-14,smash,Vehicle collided with a divider resulting in severe body damage.,79408,74408,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000790,CUST00032,POL00014,2026-06-24,2026-06-29,dent,Vehicle was dented after accidental impact with a divider.,20573,18573,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000791,CUST00039,POL00029,2026-03-21,2026-03-26,smash,Major highway collision caused extensive front-end damage.,64330,59330,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000792,CUST00077,POL00004,2026-04-17,2026-04-19,smash,Major highway collision caused extensive front-end damage.,104763,99763,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000793,CUST00022,POL00023,2026-04-26,2026-04-30,smash,Vehicle was heavily damaged after colliding with another car.,101238,99238,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000794,CUST00087,POL00003,2026-05-14,2026-05-18,smash,Major highway collision caused extensive front-end damage.,85997,84997,Fraud,77,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000795,CUST00023,POL00014,2026-05-03,2026-05-07,smash,Major highway collision caused extensive front-end damage.,116409,113409,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000796,CUST00087,POL00005,2026-03-18,2026-03-22,smash,Vehicle collided with a divider resulting in severe body damage.,122065,121065,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000797,CUST00027,POL00012,2026-04-18,2026-04-18,smash,Vehicle collided with a divider resulting in severe body damage.,112094,107094,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000798,CUST00026,POL00012,2026-05-07,2026-05-11,smash,Vehicle collided with a divider resulting in severe body damage.,50150,45150,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000799,CUST00011,POL00010,2026-05-06,2026-05-08,dent,Vehicle was dented after accidental impact with a divider.,15399,12399,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000800,CUST00039,POL00002,2026-03-06,2026-03-06,scratch,Scratches were noticed after the vehicle was parked overnight.,13287,8287,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000801,CUST00035,POL00002,2026-06-25,2026-06-25,dent,Driver hit a roadside pole while taking a turn.,10188,5188,Fraud,72,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000802,CUST00083,POL00005,2026-05-23,2026-05-25,dent,Vehicle was dented after accidental impact with a divider.,24368,23368,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000803,CUST00091,POL00012,2026-07-16,2026-07-20,dent,Another vehicle hit the car while waiting at a traffic signal.,18676,15676,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000804,CUST00062,POL00029,2026-07-24,2026-07-26,dent,Vehicle suffered a dent after a rear-end collision.,18801,13801,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000805,CUST00092,POL00025,2026-04-20,2026-04-20,dent,Vehicle was dented after accidental impact with a divider.,28757,23757,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000806,CUST00079,POL00010,2026-07-22,2026-07-27,dent,Driver hit a roadside pole while taking a turn.,24685,22685,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000807,CUST00076,POL00004,2026-06-26,2026-06-27,dent,Another vehicle hit the car while waiting at a traffic signal.,31421,26421,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000808,CUST00017,POL00003,2026-05-06,2026-05-09,dent,Driver hit a roadside pole while taking a turn.,11988,9988,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000809,CUST00073,POL00003,2026-04-10,2026-04-12,smash,Major highway collision caused extensive front-end damage.,102035,97035,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000810,CUST00065,POL00029,2026-02-28,2026-03-05,glass_break,Windshield cracked after being struck by flying debris.,33553,30553,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000811,CUST00083,POL00030,2026-02-17,2026-02-18,glass_break,Glass damage occurred due to falling construction material.,27524,26524,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000812,CUST00097,POL00023,2026-03-19,2026-03-20,glass_break,Windshield developed cracks following a highway incident.,36750,33750,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000813,CUST00058,POL00001,2026-04-09,2026-04-12,glass_break,Glass damage occurred due to falling construction material.,18794,16794,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000814,CUST00084,POL00004,2026-07-27,2026-07-27,glass_break,Glass damage occurred due to falling construction material.,24169,23169,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000815,CUST00019,POL00030,2026-06-04,2026-06-04,glass_break,A stone from a truck shattered the front windshield.,17015,12015,Fraud,79,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000816,CUST00031,POL00024,2026-05-06,2026-05-10,glass_break,Windshield cracked after being struck by flying debris.,24568,23568,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000817,CUST00071,POL00025,2026-02-28,2026-03-03,glass_break,Side window broke after impact from roadside debris.,19839,16839,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000818,CUST00087,POL00023,2026-04-02,2026-04-03,glass_break,Windshield cracked after being struck by flying debris.,35878,34878,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000819,CUST00047,POL00028,2026-04-08,2026-04-09,glass_break,Windshield cracked after being struck by flying debris.,20172,19172,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000820,CUST00039,POL00028,2026-06-09,2026-06-10,glass_break,A stone from a truck shattered the front windshield.,28356,27356,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000821,CUST00074,POL00012,2026-04-29,2026-04-29,glass_break,A stone from a truck shattered the front windshield.,42399,40399,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000822,CUST00038,POL00007,2026-06-18,2026-06-22,glass_break,A stone from a truck shattered the front windshield.,39992,38992,Fraud,78,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000823,CUST00064,POL00021,2026-05-09,2026-05-13,glass_break,Side window broke after impact from roadside debris.,39575,34575,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000824,CUST00040,POL00010,2026-05-26,2026-05-27,glass_break,Windshield developed cracks following a highway incident.,32886,27886,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000825,CUST00014,POL00018,2026-02-12,2026-02-16,dent,Vehicle was dented after accidental impact with a divider.,12240,7240,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000826,CUST00066,POL00014,2026-04-15,2026-04-16,scratch,Side panel was scratched while passing through a narrow street.,11747,8747,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000827,CUST00090,POL00014,2026-02-21,2026-02-21,smash,A high-speed accident caused significant structural damage.,83423,81423,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000828,CUST00080,POL00014,2026-06-10,2026-06-14,smash,Front portion of the vehicle was severely smashed during an accident.,74991,72991,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000829,CUST00033,POL00029,2026-02-02,2026-02-03,smash,Major highway collision caused extensive front-end damage.,71370,69370,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000830,CUST00042,POL00023,2026-07-18,2026-07-19,smash,Major highway collision caused extensive front-end damage.,92409,91409,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000831,CUST00034,POL00004,2026-02-20,2026-02-20,smash,Vehicle was heavily damaged after colliding with another car.,171460,170460,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000832,CUST00068,POL00029,2026-03-03,2026-03-04,smash,Major highway collision caused extensive front-end damage.,149823,147823,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000833,CUST00009,POL00018,2026-05-07,2026-05-11,dent,A low-speed collision caused dents on the front bumper.,8349,6349,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000834,CUST00026,POL00018,2026-04-01,2026-04-05,dent,A low-speed collision caused dents on the front bumper.,11248,10248,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000835,CUST00006,POL00025,2026-02-21,2026-02-25,dent,A low-speed collision caused dents on the front bumper.,31319,28319,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000836,CUST00011,POL00003,2026-06-23,2026-06-23,smash,Major highway collision caused extensive front-end damage.,118524,113524,Fraud,75,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000837,CUST00099,POL00005,2026-02-03,2026-02-06,dent,Another vehicle hit the car while waiting at a traffic signal.,26884,25884,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000838,CUST00017,POL00009,2026-05-25,2026-05-25,dent,Vehicle was dented after accidental impact with a divider.,25896,22896,Genuine,32,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000839,CUST00021,POL00001,2026-05-31,2026-06-01,scratch,Scratches were noticed after the vehicle was parked overnight.,12316,11316,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000840,CUST00030,POL00023,2026-04-13,2026-04-16,dent,Driver hit a roadside pole while taking a turn.,19541,17541,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000841,CUST00014,POL00025,2026-02-01,2026-02-06,smash,Vehicle was heavily damaged after colliding with another car.,78916,77916,Fraud,93,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000842,CUST00071,POL00030,2026-07-05,2026-07-06,smash,Front portion of the vehicle was severely smashed during an accident.,79946,78946,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000843,CUST00048,POL00028,2026-04-16,2026-04-20,smash,Major highway collision caused extensive front-end damage.,165336,164336,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000844,CUST00022,POL00017,2026-04-19,2026-04-22,smash,Front portion of the vehicle was severely smashed during an accident.,77371,74371,Fraud,89,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000845,CUST00070,POL00010,2026-07-04,2026-07-08,dent,Driver hit a roadside pole while taking a turn.,30785,28785,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000846,CUST00074,POL00014,2026-03-31,2026-04-05,smash,Major highway collision caused extensive front-end damage.,115148,112148,Genuine,40,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000847,CUST00087,POL00004,2026-02-25,2026-03-02,smash,A high-speed accident caused significant structural damage.,74401,71401,Fraud,100,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000848,CUST00084,POL00025,2026-04-12,2026-04-16,dent,Driver hit a roadside pole while taking a turn.,33422,28422,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000849,CUST00018,POL00029,2026-06-26,2026-06-29,smash,Front portion of the vehicle was severely smashed during an accident.,165645,164645,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000850,CUST00053,POL00028,2026-02-28,2026-03-01,dent,Vehicle was dented after accidental impact with a divider.,19128,14128,Fraud,98,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000851,CUST00022,POL00029,2026-02-06,2026-02-08,smash,Vehicle was heavily damaged after colliding with another car.,135455,130455,Fraud,89,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000852,CUST00093,POL00002,2026-04-28,2026-05-03,smash,Front portion of the vehicle was severely smashed during an accident.,118596,113596,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000853,CUST00028,POL00023,2026-06-23,2026-06-23,dent,Vehicle suffered a dent after a rear-end collision.,16877,13877,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000854,CUST00088,POL00021,2026-04-27,2026-05-02,smash,Major highway collision caused extensive front-end damage.,107257,106257,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000855,CUST00073,POL00012,2026-04-03,2026-04-04,smash,Vehicle was heavily damaged after colliding with another car.,119652,117652,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000856,CUST00002,POL00021,2026-02-10,2026-02-14,dent,Another vehicle hit the car while waiting at a traffic signal.,32909,30909,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000857,CUST00088,POL00028,2026-02-03,2026-02-08,dent,Vehicle suffered a dent after a rear-end collision.,14361,9361,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000858,CUST00059,POL00014,2026-03-30,2026-04-01,glass_break,Windshield developed cracks following a highway incident.,32887,27887,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000859,CUST00049,POL00009,2026-07-27,2026-07-28,glass_break,Glass damage occurred due to falling construction material.,40154,37154,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000860,CUST00005,POL00017,2026-04-01,2026-04-02,glass_break,Windshield cracked after being struck by flying debris.,22858,20858,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000861,CUST00032,POL00017,2026-02-28,2026-03-04,dent,Driver hit a roadside pole while taking a turn.,31004,29004,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000862,CUST00097,POL00024,2026-03-08,2026-03-11,glass_break,Windshield cracked after being struck by flying debris.,27364,22364,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000863,CUST00064,POL00029,2026-06-25,2026-06-27,glass_break,A stone from a truck shattered the front windshield.,42167,41167,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000864,CUST00099,POL00003,2026-06-21,2026-06-22,glass_break,Windshield cracked after being struck by flying debris.,19466,17466,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000865,CUST00067,POL00003,2026-03-21,2026-03-21,smash,Major highway collision caused extensive front-end damage.,65578,64578,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000866,CUST00070,POL00004,2026-03-20,2026-03-25,glass_break,Side window broke after impact from roadside debris.,36597,31597,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000867,CUST00021,POL00009,2026-06-16,2026-06-16,smash,Major highway collision caused extensive front-end damage.,104769,103769,Fraud,80,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000868,CUST00085,POL00030,2026-07-19,2026-07-22,glass_break,Glass damage occurred due to falling construction material.,37507,35507,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000869,CUST00079,POL00024,2026-05-25,2026-05-30,glass_break,Windshield developed cracks following a highway incident.,12134,11134,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000870,CUST00095,POL00024,2026-03-26,2026-03-30,glass_break,Glass damage occurred due to falling construction material.,42528,41528,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000871,CUST00057,POL00003,2026-04-03,2026-04-06,glass_break,Glass damage occurred due to falling construction material.,17279,14279,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000872,CUST00075,POL00017,2026-02-18,2026-02-21,dent,Vehicle was dented after accidental impact with a divider.,34071,33071,Fraud,87,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000873,CUST00099,POL00023,2026-02-15,2026-02-18,scratch,Scratches were noticed after the vehicle was parked overnight.,4675,1675,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000874,CUST00045,POL00018,2026-06-04,2026-06-05,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,9384,4384,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000875,CUST00011,POL00002,2026-05-01,2026-05-01,scratch,Minor scratches occurred due to contact with another parked vehicle.,5619,2619,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000876,CUST00028,POL00007,2026-02-14,2026-02-19,scratch,Vehicle was scratched while parking in a shopping mall.,5357,2357,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000877,CUST00095,POL00010,2026-04-23,2026-04-25,scratch,Side panel was scratched while passing through a narrow street.,5591,2591,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000878,CUST00051,POL00007,2026-05-31,2026-05-31,scratch,Side panel was scratched while passing through a narrow street.,5852,2852,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000879,CUST00083,POL00023,2026-03-29,2026-03-31,scratch,Vehicle was scratched while parking in a shopping mall.,3168,1168,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000880,CUST00022,POL00024,2026-05-12,2026-05-13,scratch,Scratches were noticed after the vehicle was parked overnight.,7958,4958,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000881,CUST00022,POL00030,2026-05-17,2026-05-17,glass_break,Windshield cracked after being struck by flying debris.,26057,25057,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000882,CUST00023,POL00012,2026-07-18,2026-07-18,glass_break,Windshield cracked after being struck by flying debris.,21829,16829,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000883,CUST00068,POL00025,2026-05-17,2026-05-19,smash,Vehicle was heavily damaged after colliding with another car.,171496,168496,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000884,CUST00016,POL00009,2026-04-21,2026-04-22,scratch,Scratches were noticed after the vehicle was parked overnight.,9053,7053,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000885,CUST00009,POL00024,2026-04-27,2026-05-02,scratch,Side panel was scratched while passing through a narrow street.,11767,8767,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000886,CUST00094,POL00005,2026-02-23,2026-02-28,scratch,Side panel was scratched while passing through a narrow street.,11124,9124,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000887,CUST00020,POL00021,2026-03-21,2026-03-25,scratch,Vehicle was scratched while parking in a shopping mall.,14956,11956,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000888,CUST00075,POL00010,2026-07-16,2026-07-17,smash,Front portion of the vehicle was severely smashed during an accident.,147821,145821,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000889,CUST00072,POL00010,2026-02-22,2026-02-26,glass_break,Windshield developed cracks following a highway incident.,33345,32345,Fraud,75,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000890,CUST00024,POL00001,2026-04-20,2026-04-23,dent,Vehicle was dented after accidental impact with a divider.,11919,8919,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000891,CUST00023,POL00021,2026-05-16,2026-05-17,dent,Another vehicle hit the car while waiting at a traffic signal.,34414,32414,Fraud,99,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000892,CUST00066,POL00010,2026-07-06,2026-07-06,smash,Major highway collision caused extensive front-end damage.,145565,142565,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000893,CUST00008,POL00023,2026-04-19,2026-04-20,smash,Major highway collision caused extensive front-end damage.,87203,84203,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000894,CUST00033,POL00018,2026-07-03,2026-07-03,smash,Major highway collision caused extensive front-end damage.,106482,105482,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000895,CUST00072,POL00005,2026-06-13,2026-06-16,smash,Major highway collision caused extensive front-end damage.,119769,116769,Fraud,93,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000896,CUST00084,POL00010,2026-02-07,2026-02-08,smash,Major highway collision caused extensive front-end damage.,121756,118756,Genuine,13,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000897,CUST00089,POL00024,2026-04-28,2026-04-28,smash,Front portion of the vehicle was severely smashed during an accident.,65434,63434,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000898,CUST00081,POL00003,2026-02-18,2026-02-23,smash,Front portion of the vehicle was severely smashed during an accident.,161139,158139,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000899,CUST00027,POL00028,2026-05-17,2026-05-19,smash,Vehicle was heavily damaged after colliding with another car.,120940,117940,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000900,CUST00010,POL00023,2026-02-12,2026-02-15,smash,A high-speed accident caused significant structural damage.,130011,125011,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000901,CUST00080,POL00017,2026-06-07,2026-06-12,smash,A high-speed accident caused significant structural damage.,166623,164623,Fraud,87,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000902,CUST00077,POL00024,2026-05-17,2026-05-19,smash,Vehicle collided with a divider resulting in severe body damage.,174211,171211,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000903,CUST00020,POL00029,2026-07-11,2026-07-11,smash,Vehicle was heavily damaged after colliding with another car.,107744,106744,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000904,CUST00031,POL00014,2026-05-14,2026-05-15,smash,Front portion of the vehicle was severely smashed during an accident.,69554,68554,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000905,CUST00073,POL00028,2026-03-03,2026-03-07,smash,Major highway collision caused extensive front-end damage.,178622,176622,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000906,CUST00068,POL00002,2026-05-09,2026-05-11,smash,Front portion of the vehicle was severely smashed during an accident.,113970,111970,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000907,CUST00044,POL00004,2026-06-15,2026-06-16,scratch,Minor scratches occurred due to contact with another parked vehicle.,8504,3504,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000908,CUST00099,POL00025,2026-05-26,2026-05-29,dent,Driver hit a roadside pole while taking a turn.,34265,32265,Fraud,76,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000909,CUST00060,POL00029,2026-03-03,2026-03-03,glass_break,Windshield developed cracks following a highway incident.,19677,14677,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000910,CUST00020,POL00014,2026-03-11,2026-03-13,scratch,Side panel was scratched while passing through a narrow street.,3823,2823,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000911,CUST00085,POL00030,2026-07-14,2026-07-14,smash,Front portion of the vehicle was severely smashed during an accident.,59237,57237,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000912,CUST00048,POL00003,2026-06-29,2026-07-01,dent,Vehicle suffered a dent after a rear-end collision.,30880,25880,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000913,CUST00085,POL00002,2026-03-16,2026-03-21,dent,Vehicle suffered a dent after a rear-end collision.,10299,9299,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000914,CUST00097,POL00024,2026-02-04,2026-02-07,smash,Major highway collision caused extensive front-end damage.,97229,96229,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000915,CUST00097,POL00005,2026-07-14,2026-07-14,smash,Vehicle collided with a divider resulting in severe body damage.,97846,95846,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000916,CUST00081,POL00003,2026-06-26,2026-06-27,smash,Vehicle was heavily damaged after colliding with another car.,84476,83476,Genuine,25,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000917,CUST00048,POL00029,2026-05-08,2026-05-11,glass_break,Glass damage occurred due to falling construction material.,29597,28597,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000918,CUST00096,POL00003,2026-06-20,2026-06-25,smash,Front portion of the vehicle was severely smashed during an accident.,69729,66729,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000919,CUST00017,POL00010,2026-04-23,2026-04-24,glass_break,Windshield cracked after being struck by flying debris.,15229,10229,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000920,CUST00088,POL00021,2026-05-21,2026-05-22,scratch,Scratches were noticed after the vehicle was parked overnight.,10990,8990,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000921,CUST00086,POL00018,2026-04-06,2026-04-09,dent,Driver hit a roadside pole while taking a turn.,9710,6710,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000922,CUST00053,POL00004,2026-06-12,2026-06-15,glass_break,A stone from a truck shattered the front windshield.,30082,25082,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000923,CUST00098,POL00030,2026-07-04,2026-07-07,scratch,Scratches were noticed after the vehicle was parked overnight.,8733,6733,Genuine,17,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000924,CUST00064,POL00021,2026-04-01,2026-04-06,dent,Driver hit a roadside pole while taking a turn.,24921,22921,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000925,CUST00086,POL00028,2026-07-05,2026-07-09,smash,A high-speed accident caused significant structural damage.,119473,114473,Fraud,91,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000926,CUST00016,POL00003,2026-05-17,2026-05-22,smash,Vehicle was heavily damaged after colliding with another car.,71878,69878,Fraud,88,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000927,CUST00024,POL00005,2026-02-19,2026-02-23,dent,A low-speed collision caused dents on the front bumper.,19957,14957,Genuine,22,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000928,CUST00098,POL00024,2026-03-11,2026-03-11,dent,Vehicle was dented after accidental impact with a divider.,27003,22003,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000929,CUST00058,POL00012,2026-05-11,2026-05-16,glass_break,A stone from a truck shattered the front windshield.,28091,23091,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000930,CUST00013,POL00025,2026-04-16,2026-04-18,smash,Front portion of the vehicle was severely smashed during an accident.,161866,156866,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000931,CUST00028,POL00007,2026-06-16,2026-06-16,smash,Vehicle was heavily damaged after colliding with another car.,108798,106798,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000932,CUST00042,POL00025,2026-02-02,2026-02-05,dent,Vehicle was dented after accidental impact with a divider.,28359,26359,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000933,CUST00019,POL00023,2026-04-18,2026-04-22,glass_break,Side window broke after impact from roadside debris.,42598,40598,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000934,CUST00092,POL00012,2026-04-17,2026-04-22,smash,Front portion of the vehicle was severely smashed during an accident.,139464,137464,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000935,CUST00031,POL00024,2026-04-26,2026-04-30,dent,Vehicle was dented after accidental impact with a divider.,19293,16293,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000936,CUST00032,POL00012,2026-04-09,2026-04-11,glass_break,Side window broke after impact from roadside debris.,19558,18558,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000937,CUST00037,POL00023,2026-04-16,2026-04-20,scratch,Scratches were noticed after the vehicle was parked overnight.,10713,9713,Fraud,96,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000938,CUST00011,POL00003,2026-02-26,2026-03-01,glass_break,Windshield developed cracks following a highway incident.,13757,12757,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000939,CUST00033,POL00001,2026-03-31,2026-04-04,scratch,Vehicle was scratched while parking in a shopping mall.,14436,9436,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000940,CUST00002,POL00001,2026-04-22,2026-04-25,glass_break,A stone from a truck shattered the front windshield.,37069,35069,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000941,CUST00086,POL00018,2026-04-21,2026-04-24,smash,Front portion of the vehicle was severely smashed during an accident.,116830,113830,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000942,CUST00063,POL00004,2026-06-18,2026-06-23,dent,Another vehicle hit the car while waiting at a traffic signal.,22297,19297,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000943,CUST00086,POL00024,2026-05-24,2026-05-28,glass_break,Windshield developed cracks following a highway incident.,14698,12698,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000944,CUST00046,POL00010,2026-05-15,2026-05-15,smash,Front portion of the vehicle was severely smashed during an accident.,176941,174941,Genuine,6,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000945,CUST00085,POL00029,2026-05-30,2026-06-02,smash,Vehicle collided with a divider resulting in severe body damage.,83705,82705,Genuine,36,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000946,CUST00086,POL00001,2026-05-02,2026-05-02,smash,Vehicle was heavily damaged after colliding with another car.,164879,162879,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000947,CUST00069,POL00004,2026-02-24,2026-02-27,smash,Major highway collision caused extensive front-end damage.,100754,95754,Genuine,34,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000948,CUST00023,POL00024,2026-06-17,2026-06-19,smash,A high-speed accident caused significant structural damage.,58183,57183,Fraud,74,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000949,CUST00092,POL00025,2026-03-25,2026-03-29,smash,Vehicle was heavily damaged after colliding with another car.,172297,167297,Genuine,35,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000950,CUST00032,POL00030,2026-02-11,2026-02-11,smash,Major highway collision caused extensive front-end damage.,111029,109029,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000951,CUST00044,POL00025,2026-04-28,2026-05-01,dent,Vehicle suffered a dent after a rear-end collision.,21238,18238,Genuine,20,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000952,CUST00050,POL00023,2026-02-03,2026-02-07,dent,Driver hit a roadside pole while taking a turn.,21151,20151,Genuine,14,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000953,CUST00057,POL00030,2026-02-23,2026-02-26,dent,Vehicle suffered a dent after a rear-end collision.,33537,30537,Fraud,77,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000954,CUST00003,POL00001,2026-06-10,2026-06-11,dent,A low-speed collision caused dents on the front bumper.,25066,23066,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000955,CUST00058,POL00017,2026-07-25,2026-07-25,glass_break,Windshield cracked after being struck by flying debris.,27015,26015,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000956,CUST00022,POL00003,2026-07-15,2026-07-18,glass_break,Windshield cracked after being struck by flying debris.,32434,30434,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000957,CUST00086,POL00025,2026-05-08,2026-05-13,glass_break,Side window broke after impact from roadside debris.,39358,36358,Genuine,15,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000958,CUST00027,POL00018,2026-04-08,2026-04-12,glass_break,Windshield cracked after being struck by flying debris.,14689,9689,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000959,CUST00089,POL00025,2026-02-16,2026-02-16,dent,Another vehicle hit the car while waiting at a traffic signal.,33236,31236,Genuine,27,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000960,CUST00052,POL00010,2026-05-09,2026-05-13,glass_break,Windshield developed cracks following a highway incident.,26589,21589,Fraud,91,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000961,CUST00009,POL00021,2026-03-24,2026-03-26,glass_break,Glass damage occurred due to falling construction material.,29627,28627,Genuine,11,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000962,CUST00096,POL00029,2026-03-06,2026-03-06,glass_break,Windshield cracked after being struck by flying debris.,32394,31394,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000963,CUST00033,POL00024,2026-05-30,2026-05-31,glass_break,Windshield cracked after being struck by flying debris.,34271,29271,Genuine,19,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000964,CUST00066,POL00007,2026-04-15,2026-04-16,smash,Vehicle collided with a divider resulting in severe body damage.,177171,175171,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000965,CUST00079,POL00018,2026-03-14,2026-03-15,dent,Another vehicle hit the car while waiting at a traffic signal.,32155,31155,Genuine,33,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000966,CUST00044,POL00029,2026-02-04,2026-02-09,scratch,Side panel was scratched while passing through a narrow street.,8066,5066,Genuine,26,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000967,CUST00021,POL00018,2026-04-12,2026-04-12,smash,Front portion of the vehicle was severely smashed during an accident.,161639,156639,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000968,CUST00025,POL00028,2026-02-04,2026-02-08,dent,Vehicle suffered a dent after a rear-end collision.,18501,13501,Genuine,30,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000969,CUST00022,POL00002,2026-03-05,2026-03-10,dent,Another vehicle hit the car while waiting at a traffic signal.,14686,9686,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000970,CUST00043,POL00009,2026-05-17,2026-05-22,smash,Front portion of the vehicle was severely smashed during an accident.,139959,137959,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000971,CUST00017,POL00012,2026-02-12,2026-02-13,smash,Vehicle collided with a divider resulting in severe body damage.,154928,149928,Genuine,24,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000972,CUST00043,POL00010,2026-05-17,2026-05-18,smash,Major highway collision caused extensive front-end damage.,50727,49727,Genuine,29,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000973,CUST00031,POL00001,2026-04-24,2026-04-25,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,7118,2118,Genuine,16,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000974,CUST00092,POL00017,2026-04-26,2026-04-28,dent,A low-speed collision caused dents on the front bumper.,25304,23304,Fraud,73,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000975,CUST00042,POL00028,2026-02-01,2026-02-01,smash,Vehicle collided with a divider resulting in severe body damage.,67383,66383,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000976,CUST00043,POL00023,2026-05-07,2026-05-12,dent,Vehicle was dented after accidental impact with a divider.,27158,26158,Genuine,12,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000977,CUST00059,POL00005,2026-04-05,2026-04-05,dent,A low-speed collision caused dents on the front bumper.,24610,22610,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000978,CUST00063,POL00002,2026-02-10,2026-02-15,smash,A high-speed accident caused significant structural damage.,134951,131951,Fraud,91,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000979,CUST00089,POL00009,2026-06-11,2026-06-15,dent,Another vehicle hit the car while waiting at a traffic signal.,16416,11416,Genuine,38,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000980,CUST00004,POL00003,2026-07-04,2026-07-08,smash,Front portion of the vehicle was severely smashed during an accident.,174986,171986,Genuine,18,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000981,CUST00052,POL00009,2026-07-15,2026-07-19,glass_break,A stone from a truck shattered the front windshield.,24993,19993,Genuine,21,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000982,CUST00003,POL00010,2026-05-03,2026-05-06,dent,Vehicle suffered a dent after a rear-end collision.,19080,18080,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000983,CUST00022,POL00010,2026-04-06,2026-04-06,smash,Front portion of the vehicle was severely smashed during an accident.,141964,140964,Genuine,31,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000984,CUST00004,POL00023,2026-05-08,2026-05-12,glass_break,A stone from a truck shattered the front windshield.,40194,37194,Genuine,7,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000985,CUST00007,POL00002,2026-02-12,2026-02-16,scratch,Side panel was scratched while passing through a narrow street.,9366,8366,Genuine,37,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000986,CUST00092,POL00002,2026-02-06,2026-02-06,glass_break,Glass damage occurred due to falling construction material.,30776,29776,Fraud,89,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000987,CUST00033,POL00014,2026-05-22,2026-05-26,scratch,Minor scratches occurred due to contact with another parked vehicle.,13143,11143,Genuine,39,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000988,CUST00055,POL00030,2026-03-25,2026-03-30,scratch,Minor scratches occurred due to contact with another parked vehicle.,6528,5528,Genuine,10,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000989,CUST00003,POL00004,2026-04-18,2026-04-20,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,4225,3225,Genuine,28,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000990,CUST00067,POL00018,2026-05-09,2026-05-13,glass_break,Windshield developed cracks following a highway incident.,15757,10757,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000991,CUST00001,POL00002,2026-04-14,2026-04-17,scratch,Minor scratches occurred due to contact with another parked vehicle.,10311,5311,Genuine,8,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000992,CUST00064,POL00021,2026-06-12,2026-06-15,scratch,Side panel was scratched while passing through a narrow street.,11220,9220,Genuine,9,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000993,CUST00063,POL00007,2026-04-20,2026-04-25,scratch,Vehicle was scratched while parking in a shopping mall.,9547,4547,Genuine,23,Pending,Pending,Pending,Pending,Pending,Pending
+CLM000994,CUST00038,POL00018,2026-07-18,2026-07-23,scratch,Driver accidentally brushed the vehicle against a concrete wall while reversing.,14910,9910,Genuine,5,Pending,Pending,Pending,Pending,Pending,Pending
