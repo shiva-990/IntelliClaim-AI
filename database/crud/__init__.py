@@ -39,3 +39,9 @@ from .ai_decision import (
     update_ai_decision,
     delete_ai_decision,
 )
+from .ai_detection import (
+    create_ai_detection,
+    get_ai_detection,
+    get_ai_detection_by_claim,
+    get_all_ai_detections,
+)
