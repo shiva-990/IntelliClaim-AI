@@ -5,7 +5,9 @@ from faker import Faker
 from datetime import timedelta
 
 fake = Faker("en_IN")
+customers_df = pd.read_csv("data/customers/customers.csv")
 
+customer_ids = customers_df["Customer_ID"].tolist()
 # -----------------------------
 # Configuration
 # -----------------------------
@@ -54,6 +56,7 @@ for i in range(1, NUM_POLICIES + 1):
 
     policy = {
         "Policy_Number": f"POL{i:05d}",
+        "Customer_ID": random.choice(customer_ids),
         "Policy_Type": random.choice(POLICY_TYPES),
         "Insurance_Provider": random.choice(INSURANCE_PROVIDERS),
         "Premium_Amount": premium,

@@ -17,7 +17,6 @@ from .vehicle import (
 from .policy import (
     create_policy,
     get_policy,
-    get_policy_by_number,
     get_all_policies,
     update_policy,
     delete_policy,
@@ -45,3 +44,7 @@ from .ai_detection import (
     get_ai_detection_by_claim,
     get_all_ai_detections,
 )
+from .nlp_analysis import (
+    create_nlp_analysis,
+    get_nlp_analysis,
+) 

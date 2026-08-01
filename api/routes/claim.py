@@ -1,109 +1,129 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy.orm import Session
 
-from api.deps import DBSession
-from database.crud import claim as claim_crud
+from database.connection import get_db
+
 from database.schemas.claim import (
     ClaimCreate,
+    ClaimUpdate,
     ClaimResponse,
+)
+
+from database.crud.claim import (
+    create_claim,
+    get_claim,
+    get_all_claims,
+    update_claim,
+    delete_claim,
 )
 
 router = APIRouter(
     prefix="/claims",
-    tags=["Claims"]
+    tags=["Claims"],
 )
 
 
-@router.post("/", response_model=ClaimResponse)
+@router.post(
+    "/",
+    response_model=ClaimResponse,
+)
 def create_claim_api(
     claim: ClaimCreate,
-    db: DBSession
+    db: Session = Depends(get_db),
 ):
-    return claim_crud.create_claim(db, claim)
+
+    existing = get_claim(
+        db,
+        claim.claim_id,
+    )
+
+    if existing:
+        raise HTTPException(
+            status_code=400,
+            detail="Claim already exists",
+        )
+
+    return create_claim(
+        db,
+        claim,
+    )
 
 
-@router.get("/", response_model=list[ClaimResponse])
+@router.get(
+    "/",
+    response_model=list[ClaimResponse],
+)
 def get_all_claims_api(
-    db: DBSession
+    db: Session = Depends(get_db),
 ):
-    return claim_crud.get_all_claims(db)
+    return get_all_claims(db)
 
 
-@router.get("/customer/{customer_id}", response_model=list[ClaimResponse])
-def get_claims_by_customer_api(
-    customer_id: int,
-    db: DBSession
-):
-    return claim_crud.get_claims_by_customer(
-        db,
-        customer_id
-    )
-
-
-@router.get("/policy/{policy_id}", response_model=list[ClaimResponse])
-def get_claims_by_policy_api(
-    policy_id: int,
-    db: DBSession
-):
-    return claim_crud.get_claims_by_policy(
-        db,
-        policy_id
-    )
-
-
-@router.get("/{claim_id}", response_model=ClaimResponse)
+@router.get(
+    "/{claim_id}",
+    response_model=ClaimResponse,
+)
 def get_claim_api(
-    claim_id: int,
-    db: DBSession
+    claim_id: str,
+    db: Session = Depends(get_db),
 ):
-    claim = claim_crud.get_claim(
+
+    claim = get_claim(
         db,
-        claim_id
+        claim_id,
     )
 
     if claim is None:
         raise HTTPException(
             status_code=404,
-            detail="Claim not found"
+            detail="Claim not found",
         )
 
     return claim
 
 
-@router.put("/{claim_id}", response_model=ClaimResponse)
+@router.put(
+    "/{claim_id}",
+    response_model=ClaimResponse,
+)
 def update_claim_api(
-    claim_id: int,
-    claim: ClaimCreate,
-    db: DBSession
+    claim_id: str,
+    claim: ClaimUpdate,
+    db: Session = Depends(get_db),
 ):
-    updated_claim = claim_crud.update_claim(
+
+    updated = update_claim(
         db,
         claim_id,
-        claim
+        claim,
     )
 
-    if updated_claim is None:
+    if updated is None:
         raise HTTPException(
             status_code=404,
-            detail="Claim not found"
+            detail="Claim not found",
         )
 
-    return updated_claim
+    return updated
 
 
-@router.delete("/{claim_id}")
+@router.delete(
+    "/{claim_id}",
+)
 def delete_claim_api(
-    claim_id: int,
-    db: DBSession
+    claim_id: str,
+    db: Session = Depends(get_db),
 ):
-    deleted_claim = claim_crud.delete_claim(
+
+    deleted = delete_claim(
         db,
-        claim_id
+        claim_id,
     )
 
-    if deleted_claim is None:
+    if deleted is None:
         raise HTTPException(
             status_code=404,
-            detail="Claim not found"
+            detail="Claim not found",
         )
 
     return {

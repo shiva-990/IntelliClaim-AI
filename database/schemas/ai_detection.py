@@ -4,7 +4,7 @@ from pydantic import BaseModel, ConfigDict
 
 
 class AIDetectionCreate(BaseModel):
-    claim_id: int
+    claim_id: str
     image_name: str
     detections: list[dict]
     severity: str

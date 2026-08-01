@@ -1,6 +1,7 @@
 from sqlalchemy import Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship
-
+from sqlalchemy import DateTime
+from sqlalchemy.sql import func
 from database.base import Base
 
 
@@ -10,7 +11,7 @@ class Vehicle(Base):
     vehicle_id = Column(Integer, primary_key=True, index=True)
 
     customer_id = Column(
-        Integer,
+        String(20),
         ForeignKey("customers.customer_id"),
         nullable=False
     )
@@ -31,3 +32,14 @@ class Vehicle(Base):
         "Customer",
         back_populates="vehicles"
     )
+    created_at = Column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+    )
+
+    updated_at = Column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+        onupdate=func.now(),
+    )
+    

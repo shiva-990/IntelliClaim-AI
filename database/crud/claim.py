@@ -1,20 +1,17 @@
 from sqlalchemy.orm import Session
 
 from database.models.claim import Claim
-from database.schemas.claim import ClaimCreate
+from database.schemas.claim import (
+    ClaimCreate,
+    ClaimUpdate,
+)
 
 
-def create_claim(db: Session, claim: ClaimCreate):
-    db_claim = Claim(
-        policy_id=claim.policy_id,
-        vehicle_id=claim.vehicle_id,
-        customer_id=claim.customer_id,
-        claim_date=claim.claim_date,
-        incident_date=claim.incident_date,
-        damage_description=claim.damage_description,
-        estimated_amount=claim.estimated_amount,
-        claim_status=claim.claim_status
-    )
+def create_claim(
+    db: Session,
+    claim: ClaimCreate,
+):
+    db_claim = Claim(**claim.model_dump())
 
     db.add(db_claim)
     db.commit()
@@ -23,7 +20,10 @@ def create_claim(db: Session, claim: ClaimCreate):
     return db_claim
 
 
-def get_claim(db: Session, claim_id: int):
+def get_claim(
+    db: Session,
+    claim_id: str,
+):
     return (
         db.query(Claim)
         .filter(Claim.claim_id == claim_id)
@@ -31,11 +31,16 @@ def get_claim(db: Session, claim_id: int):
     )
 
 
-def get_all_claims(db: Session):
+def get_all_claims(
+    db: Session,
+):
     return db.query(Claim).all()
 
 
-def get_claims_by_customer(db: Session, customer_id: int):
+def get_claims_by_customer(
+    db: Session,
+    customer_id: str,
+):
     return (
         db.query(Claim)
         .filter(Claim.customer_id == customer_id)
@@ -43,36 +48,40 @@ def get_claims_by_customer(db: Session, customer_id: int):
     )
 
 
-def get_claims_by_policy(db: Session, policy_id: int):
+def get_claims_by_policy(
+    db: Session,
+    policy_number: str,
+):
     return (
         db.query(Claim)
-        .filter(Claim.policy_id == policy_id)
+        .filter(Claim.policy_number == policy_number)
         .all()
     )
 
 
 def update_claim(
     db: Session,
-    claim_id: int,
-    claim: ClaimCreate
+    claim_id: str,
+    claim: ClaimUpdate,
 ):
-    db_claim = (
-        db.query(Claim)
-        .filter(Claim.claim_id == claim_id)
-        .first()
+    db_claim = get_claim(
+        db,
+        claim_id,
     )
 
     if db_claim is None:
         return None
 
-    db_claim.policy_id = claim.policy_id
-    db_claim.vehicle_id = claim.vehicle_id
-    db_claim.customer_id = claim.customer_id
-    db_claim.claim_date = claim.claim_date
-    db_claim.incident_date = claim.incident_date
-    db_claim.damage_description = claim.damage_description
-    db_claim.estimated_amount = claim.estimated_amount
-    db_claim.claim_status = claim.claim_status
+    update_data = claim.model_dump(
+        exclude_unset=True
+    )
+
+    for key, value in update_data.items():
+        setattr(
+            db_claim,
+            key,
+            value,
+        )
 
     db.commit()
     db.refresh(db_claim)
@@ -80,11 +89,13 @@ def update_claim(
     return db_claim
 
 
-def delete_claim(db: Session, claim_id: int):
-    db_claim = (
-        db.query(Claim)
-        .filter(Claim.claim_id == claim_id)
-        .first()
+def delete_claim(
+    db: Session,
+    claim_id: str,
+):
+    db_claim = get_claim(
+        db,
+        claim_id,
     )
 
     if db_claim is None:
@@ -94,3 +105,94 @@ def delete_claim(db: Session, claim_id: int):
     db.commit()
 
     return db_claim
+
+def update_cv_status(
+    db: Session,
+    claim_id: str,
+    status: str,
+):
+
+    claim = get_claim(
+        db,
+        claim_id,
+    )
+
+    if claim is None:
+        return None
+
+    claim.cv_status = status
+
+    db.commit()
+
+    db.refresh(claim)
+
+    return claim
+
+def update_cv_status(
+    db: Session,
+    claim_id: str,
+    status: str,
+):
+
+    claim = get_claim(
+        db,
+        claim_id,
+    )
+
+    if claim is None:
+        return None
+
+    claim.cv_status = status
+
+    db.commit()
+
+    db.refresh(claim)
+
+    return claim
+
+def update_cv_status(
+    db: Session,
+    claim_id: str,
+    status: str,
+):
+
+    claim = (
+        db.query(Claim)
+        .filter(Claim.claim_id == claim_id)
+        .first()
+    )
+
+    if claim is None:
+        return None
+
+    claim.cv_status = status
+
+    db.commit()
+    db.refresh(claim)
+
+    return claim
+
+def update_nlp_status(
+    db: Session,
+    claim_id: str,
+    status: str,
+):
+
+    claim = (
+        db.query(Claim)
+        .filter(
+            Claim.claim_id == claim_id
+        )
+        .first()
+    )
+
+    if claim is None:
+        return None
+
+    claim.nlp_status = status
+
+    db.commit()
+
+    db.refresh(claim)
+
+    return claim

@@ -1,103 +1,99 @@
 from fastapi import APIRouter, HTTPException
 
 from api.deps import DBSession
-from database.crud import policy as policy_crud
+
+from database.crud.policy import (
+    create_policy,
+    get_policy,
+    get_all_policies,
+    update_policy,
+    delete_policy,
+)
+
 from database.schemas.policy import (
     PolicyCreate,
+    PolicyUpdate,
     PolicyResponse,
 )
 
 router = APIRouter(
     prefix="/policies",
-    tags=["Policies"]
+    tags=["Policies"],
 )
 
 
 @router.post("/", response_model=PolicyResponse)
 def create_policy_api(
     policy: PolicyCreate,
-    db: DBSession
+    db: DBSession,
 ):
-    return policy_crud.create_policy(db, policy)
+    return create_policy(db, policy)
 
 
 @router.get("/", response_model=list[PolicyResponse])
 def get_all_policies_api(
-    db: DBSession
+    db: DBSession,
 ):
-    return policy_crud.get_all_policies(db)
+    return get_all_policies(db)
 
 
-@router.get("/{policy_id}", response_model=PolicyResponse)
+@router.get("/{policy_number}", response_model=PolicyResponse)
 def get_policy_api(
-    policy_id: int,
-    db: DBSession
-):
-    policy = policy_crud.get_policy(db, policy_id)
-
-    if policy is None:
-        raise HTTPException(
-            status_code=404,
-            detail="Policy not found"
-        )
-
-    return policy
-
-
-@router.get("/number/{policy_number}", response_model=PolicyResponse)
-def get_policy_by_number_api(
     policy_number: str,
-    db: DBSession
+    db: DBSession,
 ):
-    policy = policy_crud.get_policy_by_number(
+
+    policy = get_policy(
         db,
-        policy_number
+        policy_number,
     )
 
     if policy is None:
         raise HTTPException(
             status_code=404,
-            detail="Policy not found"
+            detail="Policy not found",
         )
 
     return policy
 
 
-@router.put("/{policy_id}", response_model=PolicyResponse)
+@router.put("/{policy_number}", response_model=PolicyResponse)
 def update_policy_api(
-    policy_id: int,
-    policy: PolicyCreate,
-    db: DBSession
+    policy_number: str,
+    policy: PolicyUpdate,
+    db: DBSession,
 ):
-    updated_policy = policy_crud.update_policy(
+
+    updated = update_policy(
         db,
-        policy_id,
-        policy
+        policy_number,
+        policy,
     )
 
-    if updated_policy is None:
+    if updated is None:
         raise HTTPException(
             status_code=404,
-            detail="Policy not found"
+            detail="Policy not found",
         )
 
-    return updated_policy
+    return updated
 
 
-@router.delete("/{policy_id}")
+@router.delete("/{policy_number}")
 def delete_policy_api(
-    policy_id: int,
-    db: DBSession
+    policy_number: str,
+    db: DBSession,
 ):
-    deleted_policy = policy_crud.delete_policy(
+
+    deleted = delete_policy(
         db,
-        policy_id
+        policy_number,
     )
 
-    if deleted_policy is None:
+    if deleted is None:
         raise HTTPException(
             status_code=404,
-            detail="Policy not found"
+            detail="Policy not found",
         )
 
     return {

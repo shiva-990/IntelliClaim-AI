@@ -1,47 +1,41 @@
 from pathlib import Path
+import shutil
 
-from fastapi import HTTPException, UploadFile
-
-from schemas.upload_schema import UploadResponse
-from utils.file_utils import (
-    validate_image_extension,
-    generate_unique_filename,
-    ensure_upload_directory,
-)
+from fastapi import UploadFile
 
 
-UPLOAD_DIRECTORY = "uploads/claims"
+# Root upload directory
+UPLOAD_DIR = Path("uploads/claims")
 
 
-class UploadService:
-    @staticmethod
-    async def upload_image(file: UploadFile) -> UploadResponse:
-        """
-        Upload and save a vehicle damage image.
-        """
+def save_claim_image(
+    claim_id: str,
+    image: UploadFile,
+) -> str:
+    """
+    Save uploaded image under:
 
-        # Validate image type
-        if not validate_image_extension(file.filename):
-            raise HTTPException(
-                status_code=400,
-                detail="Only JPG, JPEG and PNG images are allowed."
-            )
+    uploads/
+        claims/
+            CLM000001/
+                image.jpg
+    """
 
-        # Ensure upload directory exists
-        upload_dir = ensure_upload_directory(UPLOAD_DIRECTORY)
+    # Create claim folder if it doesn't exist
+    claim_folder = UPLOAD_DIR / claim_id
 
-        # Generate unique filename
-        filename = generate_unique_filename(file.filename)
+    claim_folder.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-        file_path = upload_dir / filename
+    # Save image
+    file_path = claim_folder / image.filename
 
-        # Save file
-        with open(file_path, "wb") as buffer:
-            buffer.write(await file.read())
-
-        return UploadResponse(
-            message="Image uploaded successfully",
-            filename=filename,
-            image_path=str(file_path),
-            status="uploaded"
+    with open(file_path, "wb") as buffer:
+        shutil.copyfileobj(
+            image.file,
+            buffer,
         )
+
+    return str(file_path)

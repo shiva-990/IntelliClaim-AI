@@ -9,7 +9,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.sql import func
-
+from sqlalchemy.orm import relationship
 from database.base import Base
 
 
@@ -20,7 +20,7 @@ class AIDetection(Base):
     id = Column(Integer, primary_key=True, index=True)
 
     claim_id = Column(
-        Integer,
+        String(20),
         ForeignKey("claims.claim_id"),
         nullable=False,
     )
@@ -40,4 +40,17 @@ class AIDetection(Base):
     created_at = Column(
         DateTime(timezone=True),
         server_default=func.now(),
+    )
+    claim = relationship(
+        "Claim",
+         back_populates="ai_detection",
+    )
+    created_at = Column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+    )
+
+    claim = relationship(
+        "Claim",
+        back_populates="ai_detection",
     )

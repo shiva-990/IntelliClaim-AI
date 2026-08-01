@@ -10,7 +10,7 @@ from damage_rules import (
 
 from description_templates import get_description
 import pandas as pd
-
+random.seed(42)
 
 # ==========================================================
 # CONFIGURATION
@@ -199,8 +199,12 @@ def create_claims(image_records, customers, policies):
 
         claim_id = f"CLM{claim_number:06d}"
 
-        customer = customers.sample(1).iloc[0]
         policy = active_policies.sample(1).iloc[0]
+
+        customer_id = policy["Customer_ID"]
+        customer = customers[
+        customers["Customer_ID"] == customer_id
+        ].iloc[0]
 
         remaining_images = len(image_records) - image_index
 
@@ -217,7 +221,24 @@ def create_claims(image_records, customers, policies):
         if not selected_images:
             break
 
-        primary_damage = selected_images[0]["damage_type"]
+        damage_counts = {}
+
+        for img in selected_images:
+
+            damage = img["damage_type"]
+
+            if damage is None:
+                continue
+
+            damage_counts[damage] = damage_counts.get(damage, 0) + 1
+
+        if damage_counts:
+           primary_damage = max(
+                damage_counts,
+                key=damage_counts.get
+           )
+        else:
+            primary_damage = "scratch"
 
         repair_cost = generate_repair_cost(primary_damage)
 
@@ -278,7 +299,7 @@ def create_claims(image_records, customers, policies):
             "Left",
             "Right"
         ]
-
+        random.shuffle(positions)
         for idx, img in enumerate(selected_images):
 
             claim_images.append({
@@ -332,24 +353,88 @@ def validate_data(vehicle_df, images_df):
     print("DATA VALIDATION")
     print("=" * 60)
 
+    # ---------------------------------------
+    # Duplicate Claim IDs
+    # ---------------------------------------
+
     duplicate_claims = vehicle_df["Claim_ID"].duplicated().sum()
 
-    print(f"Duplicate Claim IDs : {duplicate_claims}")
+    print(f"Duplicate Claim IDs            : {duplicate_claims}")
+
+    # ---------------------------------------
+    # Missing Customer IDs
+    # ---------------------------------------
 
     missing_customer = vehicle_df["Customer_ID"].isna().sum()
-    print(f"Missing Customer IDs: {missing_customer}")
+
+    print(f"Missing Customer IDs           : {missing_customer}")
+
+    # ---------------------------------------
+    # Missing Policy Numbers
+    # ---------------------------------------
 
     missing_policy = vehicle_df["Policy_Number"].isna().sum()
-    print(f"Missing Policy Nos  : {missing_policy}")
 
-    images_per_claim = images_df.groupby("Claim_ID").size()
+    print(f"Missing Policy Numbers         : {missing_policy}")
+
+    # ---------------------------------------
+    # Customer-Policy Relationship Validation
+    # ---------------------------------------
+
+    policies_df = pd.read_csv(POLICIES_CSV)
+
+    policy_lookup = (
+        policies_df
+        .set_index("Policy_Number")["Customer_ID"]
+        .to_dict()
+    )
+
+    relationship_errors = 0
+
+    for _, row in vehicle_df.iterrows():
+
+        expected_customer = policy_lookup.get(
+            row["Policy_Number"]
+        )
+
+        if expected_customer != row["Customer_ID"]:
+
+            relationship_errors += 1
+
+    print(f"Customer-Policy Mismatches     : {relationship_errors}")
+
+    # ---------------------------------------
+    # Image Count Validation
+    # ---------------------------------------
+
+    images_per_claim = images_df.groupby(
+        "Claim_ID"
+    ).size()
 
     invalid_claims = images_per_claim[
         (images_per_claim < 2) |
         (images_per_claim > 4)
     ]
 
-    print(f"Claims with Invalid Image Count : {len(invalid_claims)}")
+    print(
+        f"Claims with Invalid Image Count: {len(invalid_claims)}"
+    )
+
+    # ---------------------------------------
+    # Final Status
+    # ---------------------------------------
+
+    if (
+        duplicate_claims == 0
+        and missing_customer == 0
+        and missing_policy == 0
+        and relationship_errors == 0
+        and len(invalid_claims) == 0
+    ):
+        print("\n✅ DATASET VALIDATION PASSED")
+
+    else:
+        print("\n❌ DATASET VALIDATION FAILED")
 
     print("=" * 60)
 

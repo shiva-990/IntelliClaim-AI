@@ -32,7 +32,7 @@ def get_ai_detection(
 
 def get_ai_detection_by_claim(
     db: Session,
-    claim_id: int,
+    claim_id: str,
 ):
     return (
         db.query(AIDetection)

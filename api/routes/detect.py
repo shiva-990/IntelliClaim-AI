@@ -1,34 +1,66 @@
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy.orm import Session
 
-from schemas.detection_schema import DetectionResponse
-from services.yolo_service import YOLOService
+from database.connection import get_db
+
+from cv.services.detection_service import DetectionService
+
+from database.crud.claim import get_claim
 
 router = APIRouter(
     prefix="/detect",
-    tags=["Damage Detection"]
+    tags=["Damage Detection"],
 )
 
 
-@router.post(
-    "/damage",
-    response_model=DetectionResponse
-)
-def detect_damage(image_path: str):
+@router.post("/damage/{claim_id}")
+def detect_damage(
+    claim_id: str,
+    db: Session = Depends(get_db),
+):
+
+    claim = get_claim(
+        db,
+        claim_id,
+    )
+
+    if claim is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Claim not found",
+        )
+
+    service = DetectionService()
 
     try:
 
-        results = YOLOService.predict(image_path)
+        predictions = service.detect_claim(
+            claim_id
+        )
 
-        detections = YOLOService.parse_results(results)
+        saved = service.save_results(
+            db,
+            claim_id,
+            predictions,
+        )
 
-        return DetectionResponse(
-            filename=image_path.split("/")[-1].split("\\")[-1],
-            detections=detections
+        return {
+            "claim_id": claim_id,
+            "images_processed": len(predictions),
+            "detections_saved": len(saved),
+            "cv_status": "Completed",
+        }
+
+    except FileNotFoundError as e:
+
+        raise HTTPException(
+            status_code=404,
+            detail=str(e),
         )
 
     except Exception as e:
 
         raise HTTPException(
             status_code=500,
-            detail=str(e)
+            detail=str(e),
         )

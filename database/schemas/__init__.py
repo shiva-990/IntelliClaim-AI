@@ -7,3 +7,7 @@ from .ai_detection import (
     AIDetectionCreate,
     AIDetectionResponse,
 )
+from .nlp_analysis import (
+    NLPAnalysisCreate,
+    NLPAnalysisResponse,
+) 

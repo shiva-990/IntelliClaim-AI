@@ -1,19 +1,27 @@
 from sqlalchemy.orm import Session
 
 from database.models.vehicle import Vehicle
-from database.schemas.vehicle import VehicleCreate
+from database.schemas.vehicle import (
+    VehicleCreate,
+)
 
 
-def create_vehicle(db: Session, vehicle: VehicleCreate):
+def create_vehicle(
+    db: Session,
+    vehicle: VehicleCreate,
+):
+
     db_vehicle = Vehicle(
+
         customer_id=vehicle.customer_id,
-        policy_id=vehicle.policy_id,
-        vehicle_number=vehicle.vehicle_number,
+
+        registration_number=vehicle.registration_number,
+
         make=vehicle.make,
+
         model=vehicle.model,
-        year=vehicle.year,
-        fuel_type=vehicle.fuel_type,
-        vehicle_type=vehicle.vehicle_type
+
+        manufacture_year=vehicle.manufacture_year,
     )
 
     db.add(db_vehicle)
@@ -23,40 +31,52 @@ def create_vehicle(db: Session, vehicle: VehicleCreate):
     return db_vehicle
 
 
-def get_vehicle(db: Session, vehicle_id: int):
+def get_vehicle(
+    db: Session,
+    vehicle_id: int,
+):
+
     return (
         db.query(Vehicle)
-        .filter(Vehicle.vehicle_id == vehicle_id)
+        .filter(
+            Vehicle.vehicle_id == vehicle_id
+        )
         .first()
     )
 
 
 def get_all_vehicles(db: Session):
+
     return db.query(Vehicle).all()
 
 
 def update_vehicle(
     db: Session,
     vehicle_id: int,
-    vehicle: VehicleCreate
+    vehicle: VehicleCreate,
 ):
-    db_vehicle = (
-        db.query(Vehicle)
-        .filter(Vehicle.vehicle_id == vehicle_id)
-        .first()
+
+    db_vehicle = get_vehicle(
+        db,
+        vehicle_id,
     )
 
     if db_vehicle is None:
         return None
 
     db_vehicle.customer_id = vehicle.customer_id
-    db_vehicle.policy_id = vehicle.policy_id
-    db_vehicle.vehicle_number = vehicle.vehicle_number
+
+    db_vehicle.registration_number = (
+        vehicle.registration_number
+    )
+
     db_vehicle.make = vehicle.make
+
     db_vehicle.model = vehicle.model
-    db_vehicle.year = vehicle.year
-    db_vehicle.fuel_type = vehicle.fuel_type
-    db_vehicle.vehicle_type = vehicle.vehicle_type
+
+    db_vehicle.manufacture_year = (
+        vehicle.manufacture_year
+    )
 
     db.commit()
     db.refresh(db_vehicle)
@@ -64,11 +84,14 @@ def update_vehicle(
     return db_vehicle
 
 
-def delete_vehicle(db: Session, vehicle_id: int):
-    db_vehicle = (
-        db.query(Vehicle)
-        .filter(Vehicle.vehicle_id == vehicle_id)
-        .first()
+def delete_vehicle(
+    db: Session,
+    vehicle_id: int,
+):
+
+    db_vehicle = get_vehicle(
+        db,
+        vehicle_id,
     )
 
     if db_vehicle is None:

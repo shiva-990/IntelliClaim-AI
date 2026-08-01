@@ -2,14 +2,7 @@ from fastapi import FastAPI
 from configs.settings import settings
 from exceptions import register_exception_handlers
 from fastapi.middleware.cors import CORSMiddleware
-from api.routes import (
-    customer_router,
-    vehicle_router,
-    policy_router,
-    claim_router,
-    ai_decision_router,
-    health_router
-)
+
 
 app = FastAPI(
     title="IntelliClaim AI",
