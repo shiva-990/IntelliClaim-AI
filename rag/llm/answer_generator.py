@@ -1,18 +1,27 @@
-from rag.llm.qwen import get_llm
-from rag.llm.prompt_template import get_prompt_template
+from rag.llm.prompt_template import PROMPT_TEMPLATE
+from rag.llm.qwen import QwenLLM
 
 
-def generate_answer(context: str, question: str):
+class AnswerGenerator:
 
-    llm = get_llm()
+    def __init__(self):
 
-    prompt = get_prompt_template()
+        self.llm = QwenLLM()
 
-    messages = prompt.format_messages(
-        context=context,
-        question=question
-    )
+    def answer(
+        self,
+        question: str,
+        documents,
+    ):
 
-    response = llm.invoke(messages)
+        context = "\n\n".join(
+            doc.page_content
+            for doc in documents
+        )
 
-    return response.content.strip()
+        prompt = PROMPT_TEMPLATE.format(
+            context=context,
+            question=question,
+        )
+
+        return self.llm.generate(prompt)

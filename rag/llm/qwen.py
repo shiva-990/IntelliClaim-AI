@@ -1,18 +1,20 @@
-from functools import lru_cache
 from langchain_ollama import ChatOllama
 
 
-@lru_cache(maxsize=1)
-def get_llm():
-    print("=" * 60)
-    print("LOADING QWEN LLM")
-    print("=" * 60)
+class QwenLLM:
 
-    llm = ChatOllama(
-        model="qwen2.5:7b",
-        temperature=0,
-    )
+    def __init__(self):
 
-    print("Qwen loaded successfully.")
+        self.llm = ChatOllama(
+            model="qwen2.5:7b",   # We'll adjust this if your model name differs
+            temperature=0,
+        )
 
-    return llm
+    def generate(
+        self,
+        prompt: str,
+    ):
+
+        response = self.llm.invoke(prompt)
+
+        return response.content

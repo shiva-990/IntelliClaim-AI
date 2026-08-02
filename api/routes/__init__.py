@@ -10,3 +10,4 @@ from .upload import router as upload_router
 from .detect import router as detect_router
 from .ai_detection import router as ai_detection_router
 from .nlp import router as nlp_router
+from .process_claim import router as process_claim_router

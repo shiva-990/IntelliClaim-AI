@@ -1,24 +1,14 @@
-from functools import lru_cache
 from langchain_huggingface import HuggingFaceEmbeddings
 
 
-@lru_cache(maxsize=1)
-def get_embedding_model():
-    """
-    Load the embedding model only once and reuse it.
-    """
+class EmbeddingModel:
 
-    print("=" * 60)
-    print("LOADING EMBEDDING MODEL")
-    print("=" * 60)
-    print("Model : BAAI/bge-small-en-v1.5")
+    def __init__(self):
 
-    embedding_model = HuggingFaceEmbeddings(
-        model_name="BAAI/bge-small-en-v1.5",
-        model_kwargs={"device": "cpu"},
-        encode_kwargs={"normalize_embeddings": True},
-    )
+        self.model = HuggingFaceEmbeddings(
+            model_name="sentence-transformers/all-MiniLM-L6-v2"
+        )
 
-    print("Embedding model loaded successfully.")
+    def get_model(self):
 
-    return embedding_model
+        return self.model

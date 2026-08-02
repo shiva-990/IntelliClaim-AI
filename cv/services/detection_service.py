@@ -4,7 +4,10 @@ from sqlalchemy.orm import Session
 
 from cv.scripts.predict import PredictionPipeline
 
-from database.schemas.ai_detection import AIDetectionCreate
+from database.crud.ai_detection import (
+    create_ai_detection,
+    get_ai_detection_by_claim,
+)
 from database.crud.ai_detection import create_ai_detection
 from database.crud.claim import update_cv_status
 
@@ -41,6 +44,7 @@ class DetectionService:
             predictions.append(prediction)
 
         return predictions
+    
 
     # 👇 ADD THIS NEW METHOD HERE
     def save_results(
@@ -49,6 +53,13 @@ class DetectionService:
         claim_id: str,
         predictions,
     ):
+        existing = get_ai_detection_by_claim(
+           db,
+           claim_id,
+        )
+
+        if existing:
+           return existing
 
         saved = []
 

@@ -11,6 +11,7 @@ from api.routes import (
     ai_decision_router,
     health_router,
     vehicle_router,
+    process_claim_router,
 )
 
 api_v1_router = APIRouter(prefix="/api/v1")
@@ -31,3 +32,7 @@ api_v1_router.include_router(ai_decision_router)
 
 # Health
 api_v1_router.include_router(health_router)
+
+api_v1_router.include_router(
+    process_claim_router
+)

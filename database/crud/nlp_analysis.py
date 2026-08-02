@@ -30,3 +30,15 @@ def get_nlp_analysis(
         )
         .first()
     ) 
+def get_nlp_analysis(
+    db: Session,
+    claim_id: str,
+):
+
+    return (
+        db.query(NLPAnalysis)
+        .filter(
+            NLPAnalysis.claim_id == claim_id
+        )
+        .first()
+    )
