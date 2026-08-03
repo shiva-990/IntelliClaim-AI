@@ -1,0 +1,24 @@
+tasks:
+  vision_task:
+    description: Inspect the claim image evidence and summarize the damage findings.
+    expected_output: A structured summary of damage analysis from the CV tool.
+
+  claims_task:
+    description: Analyze the claim description and summarize the extracted narrative insights.
+    expected_output: A structured summary of the accident analysis from the NLP tool.
+
+  policy_task:
+    description: Review policy applicability and summarize coverage findings.
+    expected_output: A structured summary of policy coverage from the RAG tool.
+
+  fraud_task:
+    description: Assess the claim for fraud indicators and summarize the risk findings.
+    expected_output: A structured fraud assessment from the Fraud tool.
+
+  decision_task:
+    description: Review the prior findings and determine the final claim disposition.
+    expected_output: A final decision of Approve, Reject, or Manual Review.
+
+  report_task:
+    description: Compile the final human-readable insurance claim report.
+    expected_output: A polished report summarizing the prior agent findings.

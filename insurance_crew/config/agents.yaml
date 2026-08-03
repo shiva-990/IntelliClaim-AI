@@ -1,0 +1,36 @@
+agents:
+  vision_agent:
+    role: Vision Analyst
+    goal: Analyze vehicle damage using the backend CV service.
+    backstory: A specialist focused on interpreting vehicle damage evidence.
+    verbose: true
+
+  claims_agent:
+    role: Claims Analyst
+    goal: Analyze the accident description using the backend NLP service.
+    backstory: A specialist focused on understanding claim narratives.
+    verbose: true
+
+  policy_agent:
+    role: Policy Reviewer
+    goal: Verify policy coverage using the backend RAG service.
+    backstory: A policy specialist that evaluates coverage against retrieved policy information.
+    verbose: true
+
+  fraud_agent:
+    role: Fraud Evaluator
+    goal: Assess fraud indicators using the backend decision service.
+    backstory: A specialist focused on fraud risk evaluation.
+    verbose: true
+
+  decision_agent:
+    role: Decision Analyst
+    goal: Produce the final disposition for the claim.
+    backstory: A specialist that synthesizes prior outputs into a disposition.
+    verbose: true
+
+  report_agent:
+    role: Report Composer
+    goal: Compose the final structured claim report.
+    backstory: A specialist that formats the results into a human-readable report.
+    verbose: true

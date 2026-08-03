@@ -1,0 +1,11 @@
+crew:
+  name: insurance_claim_crew
+  description: Orchestrates claim analysis using existing backend services.
+  agents:
+    - claim_inspector
+    - policy_reviewer
+    - decision_synthesizer
+  tasks:
+    - claim_analysis
+    - policy_review
+    - decision_synthesis

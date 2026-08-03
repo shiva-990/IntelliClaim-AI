@@ -1,0 +1,44 @@
+vision_task:
+  description: >
+    Analyze all uploaded images for claim {claim_id}
+    and detect vehicle damages.
+
+  expected_output: >
+    Damage detection completed successfully.
+
+
+claims_task:
+  description: >
+    Analyze the accident description for claim
+    {claim_id}.
+
+  expected_output: >
+    NLP analysis completed successfully.
+
+
+policy_task:
+  description: >
+    Verify policy coverage for claim
+    {claim_id}.
+
+  expected_output: >
+    Policy verification completed successfully.
+
+
+fraud_task:
+  description: >
+    Evaluate fraud probability for claim
+    {claim_id}.
+
+  expected_output: >
+    Fraud analysis completed successfully.
+
+
+decision_task:
+  description: >
+    Generate the final insurance claim decision
+    for claim
+    {claim_id}.
+
+  expected_output: >
+    Final claim decision completed successfully.
