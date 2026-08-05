@@ -1,69 +1,73 @@
-# -------------------------
+# =========================
 # FastAPI
-# -------------------------
+# =========================
 fastapi
 uvicorn
 python-multipart
 
-# -------------------------
+# =========================
 # Database
-# -------------------------
+# =========================
 sqlalchemy
 alembic
 psycopg2-binary
 
-# -------------------------
-# Settings
-# -------------------------
+# =========================
+# Configuration
+# =========================
 pydantic
 pydantic-settings
 python-dotenv
 email-validator
 
-# -------------------------
+# =========================
 # Computer Vision
-# -------------------------
+# =========================
 opencv-python-headless
 ultralytics
 torch
 torchvision
-pillow
 numpy
+pillow
 
-# -------------------------
-# Data
-# -------------------------
+# =========================
+# Data Processing
+# =========================
 pandas
 
-# -------------------------
-# RAG
-# -------------------------
+# =========================
+# LangChain / RAG
+# =========================
 langchain
 langchain-community
 langchain-core
 langchain-text-splitters
 langchain-huggingface
+langchain-ollama
 
 sentence-transformers
 faiss-cpu
 pinecone
 
+# =========================
+# PDF Processing
+# =========================
 pypdf
-PyYAML
 
-# -------------------------
-# Ollama
-# -------------------------
-ollama
-
-# -------------------------
-# CrewAI
-# -------------------------
-crewai
-
-# -------------------------
+# =========================
 # Utilities
-# -------------------------
+# =========================
+PyYAML
 requests
 reportlab
 faker
+
+# =========================
+# Ollama
+# =========================
+ollama
+
+# =========================
+# CrewAI
+# =========================
+crewai
