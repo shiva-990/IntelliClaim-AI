@@ -18,6 +18,10 @@ class RAGService:
         claim_id: str,
     ):
 
+        # -------------------------------------------------
+        # Fetch Claim
+        # -------------------------------------------------
+
         claim = get_claim(
             db,
             claim_id,
@@ -28,30 +32,75 @@ class RAGService:
                 "Claim not found."
             )
 
-        question = (
-            f"""
-            Policy Number: {claim.policy_number}
+        # -------------------------------------------------
+        # Build Question for LLM
+        # -------------------------------------------------
 
-            Claim Description:
-            {claim.accident_description}
+        question = f"""
+Policy Number:
+{claim.policy_number}
 
-            Is this claim covered?
+Claim Description:
+{claim.accident_description}
 
-            If yes explain why.
+Is this claim covered?
 
-            If no explain why.
+If yes, explain why.
 
-            Mention deductible if available.
-            """
-        )
+If no, explain why.
+
+Mention deductible if available.
+"""
+
+        # -------------------------------------------------
+        # Retrieve Documents from FAISS
+        # -------------------------------------------------
 
         documents = self.retriever.search(
-            question
+            claim.policy_number,
+            k=5,
         )
+
+        # -------------------------------------------------
+        # Debug Retrieved Documents
+        # -------------------------------------------------
+
+        print("\n" + "=" * 80)
+        print("RAG RETRIEVED DOCUMENTS")
+        print("=" * 80)
+
+        if not documents:
+            print("No documents retrieved from FAISS.")
+
+        for index, doc in enumerate(documents, start=1):
+
+            print(f"\nDocument {index}")
+            print("-" * 80)
+
+            if hasattr(doc, "metadata"):
+                print("Metadata:")
+                print(doc.metadata)
+
+            print("\nContent:")
+            print(doc.page_content[:1000])
+
+            print("-" * 80)
+
+        print("=" * 80 + "\n")
+
+        # -------------------------------------------------
+        # Generate Answer
+        # -------------------------------------------------
 
         answer = self.generator.answer(
             question,
             documents,
         )
+
+        print("\n" + "=" * 80)
+        print("RAG FINAL ANSWER")
+        print("=" * 80)
+        print(answer)
+        print("=" * 80 + "\n")
 
         return answer

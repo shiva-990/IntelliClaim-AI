@@ -14,7 +14,7 @@ from insurance_crew.tools.nlp_tool import NLPTool
 from insurance_crew.tools.rag_tool import RAGTool
 from insurance_crew.tools.fraud_tool import FraudTool
 from insurance_crew.tools.decision_tool import DecisionTool
-
+from insurance_crew.tools.report_tool import ReportTool
 
 class InsuranceTaskFactory:
     """Build official CrewAI Task objects for orchestration only."""
@@ -41,7 +41,7 @@ class InsuranceTaskFactory:
             "policy_agent": RAGTool(),
             "fraud_agent": FraudTool(),
             "decision_agent": DecisionTool(),
-            "report_agent": DecisionTool(),
+            "report_agent": ReportTool(),
         }
         agent = self._factory.build(agent_name, tool_map[agent_name])
 

@@ -12,3 +12,15 @@ class EmbeddingModel:
     def get_model(self):
 
         return self.model
+
+
+# -----------------------------------------
+# Compatibility helper
+# -----------------------------------------
+
+def get_embedding_model():
+    """
+    Returns the embedding model.
+    Used by the Pinecone RAG pipeline.
+    """
+    return EmbeddingModel().get_model()

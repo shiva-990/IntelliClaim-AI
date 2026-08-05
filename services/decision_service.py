@@ -34,9 +34,9 @@ class DecisionService:
         claim_id: str,
     ):
 
-        # -----------------------------
+        # ---------------------------------
         # Get Claim
-        # -----------------------------
+        # ---------------------------------
         claim = get_claim(
             db,
             claim_id,
@@ -47,79 +47,76 @@ class DecisionService:
                 "Claim not found."
             )
 
-        # -----------------------------
-        # Check existing decision
-        # -----------------------------
+        # ---------------------------------
+        # Check Existing Decision
+        # ---------------------------------
         existing = get_ai_decision_by_claim(
             db,
             claim_id,
         )
 
         if existing:
+            print(f"[Decision] Existing decision found for {claim_id}")
             return existing
 
-        # -----------------------------
+        # ---------------------------------
         # Get CV Detection
-        # -----------------------------
+        # ---------------------------------
         detection = get_ai_detection_by_claim(
             db,
             claim_id,
         )
 
-        # -----------------------------
+        # ---------------------------------
         # Get NLP Analysis
-        # -----------------------------
+        # ---------------------------------
         nlp = get_nlp_analysis(
             db,
             claim_id,
         )
 
-        # -----------------------------
-        # Get RAG Answer
-        # -----------------------------
+        # ---------------------------------
+        # Get RAG Result
+        # ---------------------------------
         rag_answer = self.rag.verify_policy(
             db,
             claim_id,
         )
 
-        # -----------------------------
-        # Coverage
-        # -----------------------------
+        print(f"[Decision] RAG Response: {rag_answer}")
+
+        # ---------------------------------
+        # Coverage Decision
+        # ---------------------------------
         coverage = "Not Covered"
 
         answer = rag_answer.lower()
 
-        if (
-           "covered" in answer
-            or "yes" in answer
-        ):
+        if "covered" in answer or "yes" in answer:
+            coverage = "Covered"
 
-           coverage = "Covered" if "covered" in answer else "Not Covered"
-
-        # -----------------------------
+        # ---------------------------------
         # Fraud Score
-        # -----------------------------
+        # ---------------------------------
         fraud_score = (
             claim.fraud_score
             if claim.fraud_score is not None
             else 0.0
         )
 
-        # -----------------------------
-        # Default Decision
-        # -----------------------------
+        # ---------------------------------
+        # Initial Decision
+        # ---------------------------------
         decision = "Manual Review"
 
-        reason = []
+        reasons = []
 
-        # -----------------------------
         # Rule 1
-        # -----------------------------
         if coverage == "Covered":
 
             decision = "Approve"
 
-            reason.append(
+            reasons.append(
                 "Policy covers the reported damage."
             )
 
@@ -127,53 +124,45 @@ class DecisionService:
 
             decision = "Reject"
 
-            reason.append(
+            reasons.append(
                 "Policy does not cover the reported damage."
             )
 
-        # -----------------------------
         # Rule 2
-        # -----------------------------
         if fraud_score >= 80:
 
             decision = "Manual Review"
 
-            reason.append(
+            reasons.append(
                 "High fraud score detected."
             )
 
-        # -----------------------------
         # Rule 3
-        # -----------------------------
         if claim.claim_amount > 500000:
 
             decision = "Manual Review"
 
-            reason.append(
+            reasons.append(
                 "High claim amount requires manual verification."
             )
 
-        # -----------------------------
         # Rule 4
-        # -----------------------------
-        if detection is None:
+        if not detection:
 
-            reason.append(
+            reasons.append(
                 "CV analysis not available."
             )
 
-        # -----------------------------
         # Rule 5
-        # -----------------------------
         if nlp is None:
 
-            reason.append(
+            reasons.append(
                 "NLP analysis not available."
             )
 
-        # -----------------------------
+        # ---------------------------------
         # Save Decision
-        # -----------------------------
+        # ---------------------------------
         ai_decision = AIDecisionCreate(
 
             claim_id=claim.claim_id,
@@ -184,12 +173,14 @@ class DecisionService:
 
             decision=decision,
 
-            reason=" | ".join(reason),
+            reason=" | ".join(reasons),
         )
 
         saved = create_ai_decision(
             db,
             ai_decision,
         )
+
+        print(f"[Decision] Decision saved for {claim_id}")
 
         return saved

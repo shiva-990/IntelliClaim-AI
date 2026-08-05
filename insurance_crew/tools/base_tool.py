@@ -1,48 +1,81 @@
-"""Base abstractions for CrewAI tools in this project.
+"""
+Base Tool for all CrewAI tools.
 
-These tool classes are intentionally thin wrappers around the existing backend
-adapter so CrewAI can orchestrate behavior without reimplementing business
-logic.
+Each tool receives structured backend results (CV, NLP, RAG,
+Decision) from ClaimProcessingService.
+
+No backend service is called from the tool.
 """
 
 from __future__ import annotations
 
-from typing import Any, Dict, Optional
+from typing import Any, Dict
 
-from crewai.tools.base_tool import BaseTool as CrewBaseTool
-
-from .backend_adapter import BackendAdapter
+from crewai.tools import BaseTool as CrewBaseTool
 
 
 class BaseTool(CrewBaseTool):
-    """Thin adapter around the official CrewAI BaseTool."""
+    """Base class for all CrewAI tools."""
 
     name: str = "base_tool"
-    description: str = "Base tool interface for CrewAI orchestration."
-    adapter: Any = None
 
-    def __init__(self, adapter: Optional[BackendAdapter] = None) -> None:
-        super().__init__()
-        self.adapter = adapter or BackendAdapter()
+    description: str = "Base Tool"
 
-    def _run(self, claim_id: str, db: Any = None) -> Any:
-        raise NotImplementedError
+    def _run(self, **kwargs) -> Any:
+        """
+        Must be implemented by child classes.
+        """
+        raise NotImplementedError(
+            "Tool must implement _run()."
+        )
 
-    def run(self, claim_id: str, db: Any = None) -> Any:
-        """Public run entry point used by higher-level orchestration."""
-        return self._run(claim_id, db)
+    def run(self, **kwargs) -> Any:
+        """
+        CrewAI entry point.
+
+        Accepts any keyword arguments passed by the Crew.
+        """
+        return self._run(**kwargs)
 
     @staticmethod
-    def _coerce_to_dict(value: Any) -> Dict[str, Any]:
-        """Convert backend objects to plain dictionaries for agent consumption."""
+    def to_dict(value: Any):
+
+        """
+        Convert SQLAlchemy/Pydantic objects into plain Python
+        dictionaries for CrewAI consumption.
+        """
+
+        if value is None:
+            return None
+
         if isinstance(value, dict):
             return value
 
-        if hasattr(value, "__dict__"):
-            return {
-                key: item
-                for key, item in vars(value).items()
-                if not key.startswith("_")
-            }
+        if isinstance(value, list):
 
-        return {"value": value}
+            converted = []
+
+            for item in value:
+                converted.append(
+                    BaseTool.to_dict(item)
+                )
+
+            return converted
+
+        if hasattr(value, "model_dump"):
+            return value.model_dump()
+
+        if hasattr(value, "__dict__"):
+
+            data = {}
+
+            for key, val in vars(value).items():
+
+                if key.startswith("_"):
+                    continue
+
+                data[key] = BaseTool.to_dict(val)
+
+            return data
+
+        return value

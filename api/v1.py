@@ -12,6 +12,8 @@ from api.routes import (
     health_router,
     vehicle_router,
     process_claim_router,
+    report_router,
+    claim_history_router,
 )
 
 api_v1_router = APIRouter(prefix="/api/v1")
@@ -35,4 +37,13 @@ api_v1_router.include_router(health_router)
 
 api_v1_router.include_router(
     process_claim_router
+)
+api_v1_router.include_router(report_router)
+api_v1_router.include_router(
+    report_router,
+    prefix="/reports",
+    tags=["Reports"],
+)
+api_v1_router.include_router(
+    claim_history_router
 )

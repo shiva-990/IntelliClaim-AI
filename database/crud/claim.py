@@ -20,6 +20,27 @@ def create_claim(
     return db_claim
 
 
+def get_claim_history(db: Session):
+    """
+    Returns all claims ordered by latest first.
+    """
+
+    return (
+        db.query(Claim)
+        .order_by(Claim.created_at.desc())
+        .all()
+    )
+def get_claim_history(db: Session):
+    """
+    Returns all claims ordered by latest first.
+    """
+
+    return (
+        db.query(Claim)
+        .order_by(Claim.created_at.desc())
+        .all()
+    )
+
 def get_claim(
     db: Session,
     claim_id: str,

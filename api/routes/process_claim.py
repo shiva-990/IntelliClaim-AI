@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException
+import traceback
 
 from api.deps import DBSession
 
@@ -28,6 +29,8 @@ def process_claim(
         )
 
     except Exception as e:
+
+        traceback.print_exc()
 
         raise HTTPException(
             status_code=400,
