@@ -72,4 +72,3 @@ ollama
 # =========================
 crewai
 spacy==3.8.14
-en_core_web_sm
