@@ -13,15 +13,11 @@ register_exception_handlers(app)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-    "http://localhost:8501",
-    "http://127.0.0.1:8501",
-    "https://earnest-eagerness-production-3bf9.up.railway.app",
-     ],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
-)
+    )
 
 @app.get("/")
 def home():
