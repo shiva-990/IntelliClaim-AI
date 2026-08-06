@@ -1,1 +1,1 @@
-BACKEND_URL = "https://sparkling-celebration-production-bc7.up.railway.app"
+BACKEND_URL = "https://sparkling-celebration-production-d1a4.up.railway.app"
