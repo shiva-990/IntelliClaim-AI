@@ -1,6 +1,6 @@
 """
 YAML-backed factory for creating CrewAI Agent objects.
-Uses Ollama (Qwen) as the LLM for every agent.
+Uses Groq as the LLM for every agent.
 """
 
 from __future__ import annotations
@@ -12,6 +12,8 @@ import yaml
 
 from crewai import LLM
 from crewai.agent.core import Agent
+
+from configs.settings import settings
 
 
 class CrewAgentFactory:
@@ -30,12 +32,12 @@ class CrewAgentFactory:
         self._config = self._load_config()
 
         # ----------------------------------------
-        # Ollama LLM
+        # Groq LLM
         # ----------------------------------------
 
         self.llm = LLM(
-            model="ollama/qwen2.5:3b",
-            base_url="http://localhost:11434",
+            model=f"groq/{settings.GROQ_MODEL}",
+            api_key=settings.GROQ_API_KEY,
             temperature=0,
         )
 
@@ -101,10 +103,8 @@ class CrewAgentFactory:
                     False,
                 )
             ),
-
         }
 
-        # Attach tool only if provided
         if tool is not None:
             kwargs["tools"] = [tool]
         else:
