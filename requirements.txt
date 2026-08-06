@@ -72,3 +72,5 @@ ollama
 # =========================
 crewai
 spacy==3.8.14
+
+langchain-groq

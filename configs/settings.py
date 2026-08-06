@@ -27,8 +27,7 @@ class Settings(BaseSettings):
     PINECONE_API_KEY: str = ""
     PINECONE_INDEX_NAME: str = ""
 
-    OLLAMA_BASE_URL: str = ""
-    OLLAMA_MODEL: str = ""
+    GROQ_API_KEY: str = ""
 
     SECRET_KEY: str = "change-this"
 
