@@ -23,25 +23,25 @@ def seed_vehicles():
             db.query(Vehicle)
             .filter(
                 Vehicle.vehicle_id == vehicle_id
-             )
+            )
             .first()
-   ) 
+        )
 
         if existing:
             skipped += 1
             continue
 
-    vehicle = Vehicle(
-        vehicle_id=vehicle_id,
-        customer_id=row["Customer_ID"],
-        registration_number=row["Registration_Number"],
-        make=row["Make"],
-        model=row["Model"],
-        manufacture_year=int(row["Manufacture_Year"]),
-    )
+        vehicle = Vehicle(
+            vehicle_id=vehicle_id,
+            customer_id=row["Customer_ID"],
+            registration_number=row["Registration_Number"],
+            make=row["Make"],
+            model=row["Model"],
+            manufacture_year=int(row["Manufacture_Year"]),
+        )
 
-    db.add(vehicle)
-    inserted += 1
+        db.add(vehicle)
+        inserted += 1
 
     db.commit()
     db.close()
