@@ -1,6 +1,5 @@
 from pathlib import Path
 
-import cv2
 from ultralytics import YOLO
 
 from cv.models.detection import Detection
@@ -10,11 +9,21 @@ class DetectorService:
 
     def __init__(self, model_path: Path):
 
-        self.model = YOLO(str(model_path))
+        self.model_path = model_path
+        self.model = None
+
+    def get_model(self):
+
+        if self.model is None:
+            self.model = YOLO(str(self.model_path))
+
+        return self.model
 
     def detect(self, image):
 
-        results = self.model(image)
+        model = self.get_model()
+
+        results = model(image)
 
         detections = []
 
@@ -25,7 +34,6 @@ class DetectorService:
             for box in result.boxes:
 
                 class_id = int(box.cls[0])
-
                 confidence = float(box.conf[0])
 
                 x1, y1, x2, y2 = box.xyxy[0].tolist()
